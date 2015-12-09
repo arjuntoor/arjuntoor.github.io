@@ -1,0 +1,201 @@
+{
+	"basics": {
+		"name": "Arjun Toor",
+		"label": "Software Developer",
+		"picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAYrAAAAJGM5NWE4MmM5LTA2YmUtNGY2NS04NWYyLWUxYjhkYzU3ZTc5Nw.jpg",
+		"email": "a.toor@hotmail.co.uk",
+		"phone": "",
+		"website": "http://arjuntoor.co.uk",
+		"summary": "As a talented and ambitious professional I am looking for an exciting opportunity to match my career aspirations. With a range of skills in both web and software development projects, I am able to approach all challenges with confidence. In previous positions I have combined my technical development skills with business mindedness to become fully involved in projects and across teams. The high quality of work I produce is a result of this experience and passion. I wish to develop my skills further in an exciting client oriented environment with a strong focus on delivering high quality web and software solutions.",
+		"location": {
+			"city": "Swindon",
+			"countryCode": "UK"
+		},
+		"profiles": [{
+			"network": "Github",
+			"username": "a12jun",
+			"url": "http://github.com/a12jun"
+		}, {
+			"network": "Linkedin",
+			"username": "atoor",
+			"url": "https://uk.linkedin.com/in/atoor"
+		}, {
+			"network": "StackOverflow",
+			"username": "Arjun",
+			"url": "http://stackoverflow.com/users/737641/arjun"
+		}]
+	},
+	"work": [{
+		"company": "British Telecom",
+		"position": "Systems Developer",
+		"website": "http://bt.com",
+		"startDate": "2012-04-16",
+		"summary": "The BT Global Services DFTS project is a large scale contract providing communications technology to the Ministry of Defence. I develop and support the Siebel Call Center and related systems which handle ordering, fault reporting, and more. My focus lies in the design and development of new functionality both internal and integrated, with emphasis on automation.  My success in the role has been recognised well and has resulted in greater responsibility in the team.",
+		"highlights": [
+			"Developed a .NET Web Service to integrate Excel spreadsheets with the Siebel system, to create and process orders. Involved integrating a number of technical components e.g. SOAP, Oracle, OLEDB, and .NET drivers.",
+			"Heavy involvment in the large scale upgrade of our Siebel Call Center instances from Siebel 7 to 8.  Required significant planning and technical training on the architecture.",
+			"Implementation of a generic ASP.NET SOAP service to run any custom job on demand. Has repeatedly been used by other developers to interface into our systems.",
+            "Maintaining a custom .NET class library containing many useful generic components, e.g. command line parsing and utility classes. Has ben widely re-used.",
+            "Developed many other .NET applications covering, for example, data feeds, text matching, and data transformations."
+		]
+	}, {
+		"company": "Wiltshire Police",
+		"position": "IST Development Officer",
+		"website": "http://www.wiltshire.police.uk/",
+		"startDate": "2011-03-01",
+		"endDate": "2012-04-01",
+		"summary": "I was responsible for the design and development of internal web applications and developing solutions for an enormous variety of real-world problems.  This was a fast paced, cross functional role with focus on time-scales and reliability of solutions.",
+		"highlights": [
+			"Developed a risk management ASP.NET web application used by the directing board. Consisted of several layers of data extraction using TSQL and SSIS, and a dynamic front end. Excellent feedback was given regarding all aspects of the system, and it has since been shared with neighboring police forces.",
+			"Was heavily involved in a contract project to develop a new set of systems around reporting and statistics. Had exposure to an array of new technologies, for example the Microsoft Business Intelligence stack and dimensional data modeling. I gained an understanding of the agile management style from technical and non-technical perspectives.",
+			"Developed a .NET web application for visualizing the organizational hierarchy. Tackled several complex problems and received praise from many members of staff including senior management.",
+			"Quickly became a resource of knowledge within my own team who people turned to for specialist technical advice, particularly around ASP.NET, coding techniques and best practices."
+		]
+	}, {
+		"company": "Digital Trading Creative",
+		"position": "Web Developer",
+		"website": "http://www.digitaltrading.co.uk/",
+		"startDate": "2010-07-01",
+		"endDate": "2011-02-01",
+		"summary": "As a web developer I was responsible for developing customized, robust website solutions and components for clients, working for an entrepreneurial and successful website development and client consulting company. All projects involved in-depth design elements, working closely with graphics designers and clients. The projects I delivered included front- and back-end programming with highly customized functionality, such as PayPal IPN integration, custom shopping carts, and galleries.",
+		"highlights": [
+			"Quickly learning the technologies of ASP.NET and DotNetNuke CMS on the job through online resources, shadowing and pair-programming. I was constantly practicing newly learned skills to develop the many versatile modules which are still in use by clients today.",
+			"I consistently met short deadlines for all projects, showing my ability to prioritize and multi-task conflicting projects effectively.",
+			"Post-employment, I provided technical consultancy assisting in further development work for the company."
+		]
+	}, {
+		"company": "IFPI London, Madrid, Hamburg and São Paulo",
+		"position": "Junior Systems Developer",
+		"website": "http://ifpi.org",
+		"startDate": "2008-06-01",
+		"endDate": "2009-09-01",
+		"summary": "I was fully responsible for complete automation of website data harvesting, to assist with legal pursuits of violation of digital music copyright legislations. This entailed full solution design and implementation. As an on-the-job trained specialist in this niche field I would regularly provide training and coaching to partners across the globe. Thus as a result I played a key role in coordinating the global effort to reduce internet music piracy.",
+		"highlights": [
+			"Upon recommendation from my senior managers, I provided seminars and training for small to large groups in Spain, Germany and Brazil, with transformational results. I consistently received excellent feedback from attendees and their management.",
+			"Quickly recognized as an invaluable asset due to my positive impact on productivity. I became an expert source of knowledge for many developers across the globe due to my expertise in the bespoke software and internal systems.",
+			"Many of the systems and techniques I developed are still taught and used today to the newer developers."
+		]
+	}],
+	"education": [{
+		"institution": "University of Birmingham, UK",
+		"area": "Computer Science",
+		"studyType": "BSc (Hons) - 2:1",
+		"startDate": "2006-09-01",
+		"endDate": "2010-06-01",
+		"courses": []
+	}],
+	"skills": [{
+		"name": "Web Development",
+		"level": "Experienced",
+		"keywords": [
+			"JavaScript",
+			"HTML5",
+			"CSS3",
+			"Bootstrap",
+			"ASP.NET",
+			"Python",
+			"Flask",
+			"Bottle",
+			"jQuery",
+			"AngularJS",
+			"JSON",
+			"REST",
+			"SOAP",
+			"XML"
+		]
+	}, {
+		"name": "Software Development",
+		"level": "Experienced",
+		"keywords": [
+			"C#.NET",
+			"Java",
+			"Python",
+			"Siebel",
+			"JUnit",
+			"NUnit"
+		]
+	}, {
+		"name": "Databases",
+		"level": "Experienced",
+		"keywords": [
+			"MongoDB",
+			"MS SQL Server",
+			"Oracle",
+			"(MS) T-SQL",
+			"(MS) Stored procedures",
+			"(MS) Functions",
+			"(MS) Jobs",
+			"(MS) SSIS",
+			"(MS) Server monitoring",
+			"(MS) Administration tasks",
+			"(Oracle) PL/SQL",
+			"(Oracle) Packages",
+			"(Oracle) Toad",
+			"(Oracle) SQL Developer"
+		]
+	}, {
+		"name": "Administration",
+		"level": "Experienced",
+		"keywords": [
+			"Windows Terminal Services",
+			"PowerShell",
+			"Batch scripting",
+			"Registry",
+			"VirtualBox",
+			"XenServer",
+			"UNIX/Linux admin and scripting",
+			"UNIX command line tools",
+			"Package management"
+		]
+	}, {
+	    "name": "Software Tools & IDEs",
+	    "level": "Experienced",
+	    "keywords": [
+	        "Visual Studio (all versions)",
+	        "Pycharm",
+	        "IPython",
+	        "IPython Notebook",
+	        "Pythonanywhere",
+	        "Spyder",
+	        "RoboMongo",
+	        "Photoshop",
+			"GIMP",
+			"Inkscape",
+	    ]
+	} ,{
+		"name": "Other",
+		"level": "Experienced",
+		"keywords": [
+			"Git",
+			"Github",
+			"Subversion",
+			"Node.js"
+		]
+	}],
+	"awards": [{
+		"title": "M101P: MongoDB for Developers",
+		"date": "2014-07-01",
+		"awarder": "MongoDB University",
+		"summary": "https://university.mongodb.com/course_completion/512bf857e31744f8b028438f342a2930"
+	}],
+	"languages": [{
+		"language": "English",
+		"fluency": "Native speaker"
+	}, {
+		"language": "Punjabi",
+		"fluency": "Professional working proficiency"
+	}],
+	"interests": [{
+		"name": "Open Source Software",
+		"keywords": [
+			"FOSS",
+			"Linux",
+		]
+	}, {
+		"name": "Health and fitness"
+	}],
+	"references": [{
+		"name": "Pratim Das",
+		"reference": "I have known Arjun for a long time now, both professionally and personally. Arjun was one of the best grad developers I have worked with - he was knowledgeable, enthusiastic and a pleasure to work with. During his time at IFPI he was keen to learn new technologies and was able to deliver on some solid solutions which are still in use. Arjun also has a thorough understanding of fundamentals of computer science and was also very creative in his programming. I look forward to working again with Arjun in the near future."
+	}]
+}
