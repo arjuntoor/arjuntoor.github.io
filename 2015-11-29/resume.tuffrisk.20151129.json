@@ -1,0 +1,194 @@
+{
+  "basics": {
+    "name": "Arjun Toor",
+    "label": "Software Developer",
+    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAYrAAAAJGM5NWE4MmM5LTA2YmUtNGY2NS04NWYyLWUxYjhkYzU3ZTc5Nw.jpg",
+    "email": "a.toor@hotmail.co.uk",
+    "phone": "07748737177",
+    "website": "http://github.com/a12jun",
+    "summary": "As a talented and ambitious professional, I am looking to seize a great opportunity and expand my career in an exciting start-up project. With experience in a range of web and software development projects, I am able to approach all challenges with confidence. I work analytically and logically, and strive for continuous improvement, reflected in the originality and high quality of work I produce. In previous positions I have combined my technical development skills with specific business acumen to allow for full project involvement across functional areas. I wish to develop these skills further in an exciting client oriented environment with a strong focus on delivering high quality software solutions.",
+    "location": {
+      "postalCode": "SN2 2GE",
+      "city": "Swindon",
+      "countryCode": "UK",
+      "region": "Wiltshire"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "a12jun",
+        "url": "http://github.com/a12jun"
+      },
+      {
+        "network": "Linkedin",
+        "username": "atoor",
+        "url": "https://uk.linkedin.com/in/atoor"
+      },
+      {
+        "network": "StackOverflow",
+        "username": "Arjun",
+        "url": "http://stackoverflow.com/users/737641/arjun"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "British Telecom",
+      "position": "Systems Developer",
+      "website": "http://bt.com",
+      "startDate": "2012-04-16",
+      "summary": "The BT Global Services DFTS project is a large scale contract providing essential communications technology to the British Ministry of Defence. It has saved the MoD some $1.2bn in costs from the start of the project and is worth over $5.5bn over its lifetime. I am responsible for developing the live call center systems handling ordering, asset tracking, billing and fault reporting. With the system processing roughly $460m of costs per year, and automation counting for around 35% of all orders, my role within the development team focuses on the design and development of new innovative functionality, with a strong focus on time and cost saving through further automation. My success in the role has been largely due to my innovative and analytical approach to problem solving, and introducing effective new processes across teams.",
+      "highlights": [
+        "End-to-end development and integration of a system allowing spreadsheet templates to be emailed in, and have the system itself create and populate an order. This made several costly processes redundant, netting in an exceptional overall time and cost saving.",
+        "Building and integrating a custom text matching program using matching algorithms into an existing process resulting in an enormous performance boost. Led to me becoming a specialist in this area within our team.",
+        "Implementation of several other highly re-usable and cost saving solutions to existing processes, including a highly configurable email triggered job dispatcher."
+      ]
+    },
+    {
+      "company": "Wiltshire Police",
+      "position": "IST Development Officer",
+      "website": "http://www.wiltshire.police.uk/",
+      "startDate": "2011-03-01",
+      "endDate": "2012-04-01",
+      "summary": "In my one year of service with the Wiltshire Police I very quickly became a highly valued member of the internal web development team, responsible for the design and development of all internal web applications and developing solutions for an enormous variety of real-world problems. My success can be attributed to an ambitious attitude and a passion to drive for results. A fast paced, cross functional role with focus on time-scales and reliability of solutions, this was a thoroughly challenging yet rewarding and enjoyable experience.",
+      "highlights": [
+        "Developed a risk management web application used by the directing board. Consisted of several layers of data extraction and a dynamic front end. The site is widely used and has had a valuable and favorable effect on risk management, and has since been shared with neighboring police forces.",
+        "Was heavily involved in a contract project to develop a new set of systems around reporting and statistics. Had exposure to an array of new technologies, for example the Microsoft Business Intelligence stack and dimensional data modeling. As an integral part of the agile-managed project team I gained an understanding of the management style from both technical and non-technical perspectives.",
+        "Personally developed a dynamic web application for visualizing the organizational hierarchy. Tackled several complex problems and received praise from many members of staff including senior management.",
+        "Quickly became a resource of knowledge within my own team who people turned to for specialist technical advice, particularly around ASP.NET, coding techniques and best practices."
+      ]
+    },
+    {
+      "company": "Digital Trading Creative",
+      "position": "Web Developer",
+      "website": "http://www.digitaltrading.co.uk/",
+      "startDate": "2010-07-01",
+      "endDate": "2011-02-01",
+      "summary": "As a web developer I was responsible for developing customized, robust website solutions and components for clients, working for an entrepreneurial and successful website development and client consulting company. All projects involved in-depth design elements, working closely with graphics designers and clients. The projects I delivered included front- and back-end programming with highly customized functionality, such as PayPal IPN integration, custom shopping carts, and galleries.",
+      "highlights": [
+        "Quickly learning the technologies of ASP.NET and DotNetNuke CMS on the job through online resources, shadowing and pair-programming. I was constantly practicing newly learned skills to develop the many versatile modules which are still in use by clients today.",
+        "I consistently met short deadlines for all projects, showing my ability to prioritize and multi-task conflicting projects effectively.",
+        "Post-employment, I provided technical consultancy assisting in further development work for the company."
+      ]
+    },
+    {
+      "company": "IFPI London, Madrid, Hamburg and São Paulo",
+      "position": "Junior Systems Developer",
+      "website": "http://ifpi.org",
+      "startDate": "2008-06-01",
+      "endDate": "2009-09-01",
+      "summary": "I was fully responsible for complete automation of website data harvesting, to assist with legal pursuits of violation of digital music copyright legislations. This entailed full solution design and implementation. As an on-the-job trained specialist in this niche field I would regularly provide training and coaching to partners across the globe. Thus as a result I played a key role in coordinating the global effort to reduce internet music piracy.",
+      "highlights": [
+        "Upon recommendation from my senior managers, I provided seminars and training for small to large groups in Spain, Germany and Brazil, with transformational results. I consistently received excellent feedback from attendees and their management.",
+        "Quickly recognized as an invaluable asset due to my positive impact on productivity. I became an expert source of knowledge for many developers across the globe due to my expertise in the bespoke software and internal systems.",
+        "Many of the systems and techniques I developed are still taught and used today to the newer developers."
+      ]
+    }
+  ],  
+  "education": [
+    {
+      "institution": "University of Birmingham, UK",
+      "area": "Computer Science",
+      "studyType": "BSc (Hons) - 2:1",
+      "startDate": "2006-09-01",
+      "endDate": "2010-06-01",
+      "courses": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Experienced",
+      "keywords": [
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "jQuery",
+        "AngularJS",
+        "Bootstrap",
+        "JSON",
+        "SOAP/REST",
+        "ASP.NET",
+        "XML"
+      ]
+    },
+    {
+      "name": "Software Development",
+      "level": "Experienced",
+      "keywords": [
+        "C#.NET",
+        "Java",
+        "Python",
+        "Siebel"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Experienced",
+      "keywords": [
+        "SQL Server",
+        "T-SQL",
+        "stored procedures",
+        "functions",
+        "jobs",
+        "SSIS",
+        "server monitoring",
+        "administration tasks",
+        "Oracle PL/SQL",
+        "functions, packages, jobs",
+        "Toad",
+        "SQL Developer"
+      ]
+    },
+    {
+      "name": "Administration",
+      "level": "Experienced",
+      "keywords": [
+        "Windows Terminal Services",
+        "PowerShell",
+        "batch scripting",
+        "computer management",
+        "virtual machines",
+        "registry",
+        "UNIX/Linux Bash scripting"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": "Experienced",
+      "keywords": [
+        "Git",
+        "Subversion",
+        "Photoshop",
+        "GIMP",
+        "Inkscape"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Punjabi",
+      "fluency": "Professional working proficiency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Open Source Software",
+      "keywords": [
+        "FOSS",
+        "Linux"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Pratim Das",
+      "reference": "I have known Arjun for a long time now, both professionally and personally. Arjun was one of the best gard developers I have worked with - he was knowledgeable, enthusiastic and a pleasure to work with. During his time at IFPI he was keen to learn new technologies and was able to deliver on some solid solutions which are still in use. Arjun also has a thorough understanding of fundamentals of computer science and was also very creative in his programming. I look forward to working again with Arjun in the near future."
+    }
+  ]
+}
