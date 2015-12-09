@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Arjun Toor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,500,600,700|Open+Sans:400,500,600,700' rel='stylesheet' type='text/css'>
+    <style>
+      .clear-margin {
+  margin: 0;
+}
+.space-top {
+  margin-top: 10px;
+}
+.space-right {
+  margin-right: 10px;
+}
+.icon-left {
+  margin-right: 5px;
+}
+.icon-right {
+  margin-left: 5px;
+}
+.labels {
+  word-spacing: 5px;
+  line-height: 2;
+}
+.label-keyword {
+  display: inline-block;
+  background: #7eb0db;
+  color: white;
+  font-size: 0.9em;
+  padding: 5px;
+  border: 1px solid #357ebd;
+}
+.link-disguise {
+  color: inherit;
+}
+.link-disguise:hover {
+  color: inherit;
+}
+@media (max-width: 992px) {
+  .clear-margin-sm {
+    margin-bottom: 0;
+  }
+}
+body {
+  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #f0f0f0;
+  color: #333333;
+  font-size: 16px;
+}
+.text-bolder {
+  font-weight: bold;
+}
+@media only screen {
+  .container {
+    max-width: 50em;
+  }
+}
+@media (max-width: 480px) {
+  ul {
+    padding-left: 25px;
+  }
+  /*
+        .mobile-title {
+            display: inline-block;
+            margin-left: 5px;
+            font-weight: bold;
+            text-transform: uppercase;
+            vertical-align: middle;
+        }
+*/
+  .background-details {
+    display: block;
+  }
+  .background-details .icon {
+    max-width: inherit;
+    min-width: inherit;
+    text-align: left;
+  }
+  .background-details .icon,
+  .background-details .info {
+    display: block;
+    padding: 10px 0;
+  }
+  .background-details .title {
+    display: none;
+  }
+  .card-nested {
+    padding: 5px 0;
+  }
+}
+.profile-card {
+  display: table;
+  width: 100%;
+}
+.profile-pic {
+  display: table-cell;
+  vertical-align: top;
+  padding: 1rem 4rem 0 0 ;
+}
+.profile-pic img {
+  width: 100px;
+  height: 100px;
+}
+.contact-details {
+  display: table-cell;
+}
+.contact-details .detail {
+  display: inline-block;
+  line-height: 2;
+  margin-right: 2rem;
+}
+.contact-details .detail .icon {
+  padding-right: 7px;
+  color: #888;
+}
+.contact-details .detail .info {
+  font-size: 0.8em;
+}
+.social-links {
+  line-height: 2.5;
+}
+.social-link {
+  display: block;
+}
+.social-link span {
+  display: inline-block;
+  vertical-align: middle;
+}
+.social-link:hover,
+.social-link:focus {
+  text-decoration: none;
+}
+.social-link .fa {
+  text-align: center;
+  width: 2em;
+}
+.fa-github {
+  color: #454545;
+}
+.fa-github:hover,
+.fa-github:focus {
+  text-decoration: none;
+  color: #2b2b2b;
+}
+.fa-twitter {
+  color: #33ccff;
+}
+.fa-twitter:hover,
+.fa-twitter:focus {
+  text-decoration: none;
+  color: #00bfff;
+}
+.fa-rss {
+  color: #f36f24;
+}
+.fa-rss:hover,
+.fa-rss:focus {
+  text-decoration: none;
+  color: #d8560c;
+}
+.fa-linkedin {
+  color: #007bb6;
+}
+.fa-linkedin:hover,
+.fa-linkedin:focus {
+  text-decoration: none;
+  color: #005983;
+}
+.fa-skype {
+  color: #12a5f4;
+}
+.fa-skype:hover,
+.fa-skype:focus {
+  text-decoration: none;
+  color: #0986ca;
+}
+.fa-stack-overflow {
+  color: #8e8e92;
+}
+.fa-stack-overflow:hover,
+.fa-stack-overflow:focus {
+  text-decoration: none;
+  color: #747479;
+}
+.fa-soundcloud {
+  color: #e8822d;
+}
+.fa-soundcloud:hover,
+.fa-soundcloud:focus {
+  text-decoration: none;
+  color: #cc6916;
+}
+.fa-pinterest {
+  color: #bd091f;
+}
+.fa-pinterest:hover,
+.fa-pinterest:focus {
+  text-decoration: none;
+  color: #8c0717;
+}
+.fa-vimeo {
+  color: #17b3e8;
+}
+.fa-vimeo:hover,
+.fa-vimeo:focus {
+  text-decoration: none;
+  color: #128fba;
+}
+.fa-behance {
+  color: #2c98cf;
+}
+.fa-behance:hover,
+.fa-behance:focus {
+  text-decoration: none;
+  color: #2379a5;
+}
+.fa-codepen {
+  color: #1c1c1c;
+}
+.fa-codepen:hover,
+.fa-codepen:focus {
+  text-decoration: none;
+  color: #020202;
+}
+.fa-foursquare {
+  color: #fa4778;
+}
+.fa-foursquare:hover,
+.fa-foursquare:focus {
+  text-decoration: none;
+  color: #f91554;
+}
+.fa-reddit {
+  color: #545454;
+}
+.fa-reddit:hover,
+.fa-reddit:focus {
+  text-decoration: none;
+  color: #3b3b3b;
+}
+.fa-spotify {
+  color: #acd200;
+}
+.fa-spotify:hover,
+.fa-spotify:focus {
+  text-decoration: none;
+  color: #829f00;
+}
+.fa-dribbble {
+  color: #ce366f;
+}
+.fa-dribbble:hover,
+.fa-dribbble:focus {
+  text-decoration: none;
+  color: #a82959;
+}
+.fa-facebook {
+  color: #4b6daa;
+}
+.fa-facebook:hover,
+.fa-facebook:focus {
+  text-decoration: none;
+  color: #3b5687;
+}
+.fa-angellist {
+  color: #000000;
+}
+.fa-angellist:hover,
+.fa-angellist:focus {
+  text-decoration: none;
+  color: #000000;
+}
+.fa-bitbucket {
+  color: #205081;
+}
+.fa-bitbucket:hover,
+.fa-bitbucket:focus {
+  text-decoration: none;
+  color: #163758;
+}
+.fa-google-plus {
+  color: #bf2a1d;
+}
+.fa-google-plus:hover,
+.fa-google-plus:focus {
+  text-decoration: none;
+  color: #932016;
+}
+.background-card h4 {
+  font-variant: small-caps;
+  color: #777777;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+  line-height: 1.2;
+}
+.background-card h4:not(:first-child) {
+  margin-top: 2em;
+}
+h4 > .fa,
+h4 > .title {
+  display: inline-block;
+  vertical-align: baseline;
+}
+h4 > .fa {
+  width: 4rem;
+}
+.content {
+  line-height: 1.5;
+}
+.card {
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding: 2em 3.5em;
+}
+.card-nested {
+  padding: 1.5rem 0 1.5rem 4.2rem;
+}
+.card-wrapper {
+  padding: 5px;
+}
+.enumeration:not(:last-child):after {
+  content: ", ";
+}
+.enumeration:last-child:after {
+  content: ".";
+}
+@media only screen and (max-width: 768px) {
+  .profile-card {
+    display: block;
+  }
+  .contact-details,
+  .profile-pic {
+    display: block;
+    text-align: center;
+  }
+  .card-nested {
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .contact-details .detail {
+    display: block;
+  }
+}
+.card-skills {
+  position: relative;
+}
+.skill-info {
+  margin-left: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .skill {
+    border-left: 9px solid #555555;
+  }
+  .skill.beginner {
+    height: 50%;
+    border-color: #e74c3c;
+  }
+  .skill.intermediate {
+    height: 70%;
+    border-color: #f1c40f;
+  }
+  .skill.advanced {
+    border-color: #5cb85c;
+  }
+  .skill.master {
+    border-color: black;
+  }
+}
+@media (max-width: 768px) {
+  .quote {
+    font-size: inherit;
+  }
+}
+@media print {
+  body {
+    font-size: 10pt;
+  }
+  a[href]:after {
+    content: none !important;
+  }
+  .pagebreak {
+    page-break-before: always;
+  }
+  .background-card h4:not(:first-child) {
+    margin-top: 0 !important;
+  }
+  .card {
+    border: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 100%;
+    width: 100%;
+  }
+  .contact-details .detail .icon {
+    color: #888 !important;
+  }
+  .background-card h4 {
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 1em !important;
+  }
+  h4 > .fa {
+    display: none !important;
+  }
+  .card-nested {
+    padding: .5rem 0 .5rem 0;
+  }
+  .labels {
+    display: inline;
+  }
+  .skill-info {
+    margin-left: 0;
+  }
+  blockquote {
+    font-size: 100%;
+  }
+}
+
+    </style>
+  </head>
+
+  <body itemscope itemtype="http://schema.org/Person">
+    
+    <div class="container">
+      <section class="row">
+        <div class="card-wrapper">
+          <div class="card">
+            <div class="profile-card">
+                <div class="profile-pic">
+                  <img class="media-object img-circle center-block"  data-src="holder.js/100x100"
+                    alt="Arjun Toor" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAYrAAAAJGM5NWE4MmM5LTA2YmUtNGY2NS04NWYyLWUxYjhkYzU3ZTc5Nw.jpg" itemprop="image">
+                </div>
+                <div class="contact-details">
+                  <div class="name-and-profession">
+                    <h3 class="text-bolder name" itemprop="name"> Arjun Toor</h3>
+                    <h5 class="text-muted" itemprop="jobTitle">Software Developer</h5>
+                  </div>
+
+                    <div class="detail">
+                      <span class="icon">
+                        <i class="fa fa-lg fa-envelope"></i>
+                      </span>
+
+                      <span class="info">
+                        <a href="/cdn-cgi/l/email-protection#04652a706b6b76446c6b7069656d682a676b2a716f" class="link-disguise" itemprop="email"><span class="__cf_email__" data-cfemail="accd82d8c3c3deecc4c3d8c1cdc5c082cfc382d9c7">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></a>
+                      </span>
+                    </div>
+
+
+                    <div class="detail">
+                      <span class="icon">
+                        <i class="fa fa-lg fa-map-marker"></i>
+                      </span>
+
+                        <span class="info">
+                          Swindon, ,
+                          UK
+                        </span>
+                    </div>
+
+                </div>
+                
+            </div>
+            <hr>
+
+            <div class="social-links">
+                <a class="social-link" href="http://github.com/a12jun" target="_blank">
+                  <span class="fa fa-github fa-2x"></span> 
+                  <span class="social-link-text">http://github.com/a12jun</span>
+                </a>
+                <a class="social-link" href="https://uk.linkedin.com/in/atoor" target="_blank">
+                  <span class="fa fa-linkedin fa-2x"></span> 
+                  <span class="social-link-text">https://uk.linkedin.com/in/atoor</span>
+                </a>
+                <a class="social-link" href="http://stackoverflow.com/users/737641/arjun" target="_blank">
+                  <span class="fa fa-stackoverflow fa-2x"></span> 
+                  <span class="social-link-text">http://stackoverflow.com/users/737641/arjun</span>
+                </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="row">
+        <div class="card-wrapper">
+          <div class="card background-card">
+
+            <h4 id="about"> <span class="fa fa-lg fa-user"></span> <span class="title">About</span> </h4>
+            <div class="card-nested" itemprop="description">
+              <p> As a talented and ambitious professional I am looking for an exciting opportunity to match my career aspirations. With a range of skills in both web and software development projects, I am able to approach all challenges with confidence. In previous positions I have combined my technical development skills with business mindedness to become fully involved in projects and across teams. The high quality of work I produce is a result of this experience and passion. I wish to develop my skills further in an exciting client oriented environment with a strong focus on delivering high quality web and software solutions. </p>
+            </div>
+
+            <h4 id="work-experience"> <span class="fa fa-lg fa-pencil-square-o"></span> <span class="title">Work Experience</span> </h4>
+            <ul class="list-unstyled">
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>Systems Developer</strong>,
+                      <a href="http://bt.com" target="_blank">British Telecom</a>
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        <span class="space-right"> Apr 2012 -  Present  </span>
+                         <span> <i class="fa fa-clock-o icon-left"></i> 3 years 7 months </span> 
+                      </small>
+                    </p>
+                    <p>The BT Global Services DFTS project is a large scale contract providing communications technology to the Ministry of Defence. I develop and support the Siebel Call Center and related systems which handle ordering, fault reporting, and more. My focus lies in the design and development of new functionality, both internal and integrated, with emphasis on automation.  My success in the role has been recognised well and has resulted in greater responsibility in the team.</p>
+                      <ul>
+                          <li> Developed a .NET Web Service to integrate Excel spreadsheets with the Siebel system, to create and process orders. Involved integrating a number of technical components e.g. SOAP, Oracle, OLEDB, and .NET drivers. </li>
+                          <li> Helped carry out the large scale upgrades of our production Siebel instances from Siebel 7 to 8.  Required significant planning and technical involvement at all levels. </li>
+                          <li> Implementation of a generic ASP.NET SOAP interface service to run processes on demand. Has repeatedly been used by other developers to interface into our systems. </li>
+                          <li> Maintaining a custom .NET class library containing many useful generic components, e.g. command line parsing and utility classes. Has been widely re-used. </li>
+                          <li> Developed many other .NET applications covering, for example, data feeds, text matching, and data transformations. </li>
+                      </ul>
+                  </div>
+
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>IST Development Officer</strong>,
+                      <a href="http://www.wiltshire.police.uk/" target="_blank">Wiltshire Police</a>
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        <span class="space-right"> Mar 2011 -  Apr 2012  </span>
+                         <span> <i class="fa fa-clock-o icon-left"></i> 1 year 1 month </span> 
+                      </small>
+                    </p>
+                    <p>I was responsible for the design and development of internal web applications and developing solutions for a variety of real-world and important problems.  This was a fast paced, cross functional role with focus on time-scales and reliability of solutions.</p>
+                      <ul>
+                          <li> Developed an &#x27;all in one&#x27; ASP.NET web application used by the senior task force for daily meetings to manage high-priority cases. Consisted of a dynamic front end using ASP.NET AJAX, several layers of data extraction using TSQL and SSIS, and integration with the NicheRMS API. The site has since been shared with neighboring police forces. </li>
+                          <li> Developed an interactive organisational chart web app using ASP.NET, Javascript and gRaphael, and SQL Server / MySQL for the back end data extracts. </li>
+                          <li> Was heavily involved in a contract project to develop a new set of systems around reporting and statistics. Had exposure to an array of new technologies, including Microsoft Business Intelligence stack and dimensional data modeling. I gained an understanding of the agile management style from technical and non-technical perspectives. </li>
+                          <li> Strived to implement better development practices and coding techniques amongst the team, making a great impact. </li>
+                      </ul>
+                  </div>
+
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>Web Developer</strong>,
+                      <a href="http://www.digitaltrading.co.uk/" target="_blank">Digital Trading Creative</a>
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        <span class="space-right"> Jul 2010 -  Feb 2011  </span>
+                         <span> <i class="fa fa-clock-o icon-left"></i> 7 months </span> 
+                      </small>
+                    </p>
+                    <p>I was responsible for developing customized websites and DotNetNuke components, working for an entrepreneurial website development and client consulting company. All projects involved working with graphics designers and clients.</p>
+                      <ul>
+                          <li> Created several DotNetNuke websites with custom shopping cart systems and integration with the PayPal IPN system. </li>
+                          <li> Consistently met short deadlines for all projects, showing my ability to prioritize and multi-task conflicting projects effectively. </li>
+                          <li> Post-employment, I provided technical consultancy carrying out further development work for the company. </li>
+                      </ul>
+                  </div>
+
+                </li>
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>Junior Systems Developer (Industrial Placement year)</strong>,
+                      <a href="http://ifpi.org" target="_blank">IFPI London, Madrid, Hamburg and São Paulo</a>
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        <span class="space-right"> Jun 2008 -  Sep 2009  </span>
+                         <span> <i class="fa fa-clock-o icon-left"></i> 1 year 3 months </span> 
+                      </small>
+                    </p>
+                    <p>I was fully responsible for automation and management of website data harvesting, to assist with legal pursuits of violation of digital music copyright legislation. This entailed full solution design and implementation. I would regularly provide training and coaching to partners across the globe; thus I played a key role in coordinating the global effort to reduce internet music piracy.</p>
+                      <ul>
+                          <li> Development of several hundred netbots to perform web data extraction, using a Java-based system (now Kofax). As the first in the industry to use the software for our purpose </li>
+                          <li> Development of an internal JSP website to manage all aspects of the extraction process, including an Oracle-based API for global partners to interface with our system. </li>
+                          <li> Upon recommendation from my senior managers, I provided seminars and training in person for small to large groups in Spain, Germany and Brazil, with exceptional results. </li>
+                      </ul>
+                  </div>
+
+                </li>
+            </ul>
+
+            <h4 id="skills"> <span class="fa fa-lg fa-code"></span> <span class="title">Skills</span> </h4>
+            <ul class="list-unstyled">
+                <li class="card-nested skill experienced">
+                  <strong>Web Development (experienced):</strong> 
+                   <span class="enumeration">JavaScript</span>  <span class="enumeration">HTML5</span>  <span class="enumeration">CSS3</span>  <span class="enumeration">Bootstrap</span>  <span class="enumeration">ASP.NET</span>  <span class="enumeration">Python</span>  <span class="enumeration">Flask</span>  <span class="enumeration">Bottle</span>  <span class="enumeration">jQuery</span>  <span class="enumeration">AngularJS</span>  <span class="enumeration">JSON</span>  <span class="enumeration">REST</span>  <span class="enumeration">SOAP</span>  <span class="enumeration">XML</span> 
+              </li>
+                <li class="card-nested skill experienced">
+                  <strong>Software Development (experienced):</strong> 
+                   <span class="enumeration">C#.NET</span>  <span class="enumeration">Java</span>  <span class="enumeration">Python</span>  <span class="enumeration">Siebel</span>  <span class="enumeration">JUnit</span>  <span class="enumeration">NUnit</span> 
+              </li>
+                <li class="card-nested skill experienced">
+                  <strong>Databases (experienced):</strong> 
+                   <span class="enumeration">MongoDB</span>  <span class="enumeration">MS SQL Server</span>  <span class="enumeration">Oracle</span>  <span class="enumeration">(MS) T-SQL</span>  <span class="enumeration">(MS) Stored procedures</span>  <span class="enumeration">(MS) Functions</span>  <span class="enumeration">(MS) Jobs</span>  <span class="enumeration">(MS) SSIS</span>  <span class="enumeration">(MS) Server monitoring</span>  <span class="enumeration">(MS) Administration tasks</span>  <span class="enumeration">(Oracle) PL/SQL</span>  <span class="enumeration">(Oracle) Packages</span>  <span class="enumeration">(Oracle) Toad</span>  <span class="enumeration">(Oracle) SQL Developer</span> 
+              </li>
+                <li class="card-nested skill experienced">
+                  <strong>Administration (experienced):</strong> 
+                   <span class="enumeration">Windows Terminal Services</span>  <span class="enumeration">PowerShell</span>  <span class="enumeration">Batch scripting</span>  <span class="enumeration">Registry</span>  <span class="enumeration">VirtualBox</span>  <span class="enumeration">XenServer</span>  <span class="enumeration">UNIX/Linux admin and scripting</span>  <span class="enumeration">UNIX command line tools</span>  <span class="enumeration">Package management</span> 
+              </li>
+                <li class="card-nested skill experienced">
+                  <strong>Software Tools &amp; IDEs (experienced):</strong> 
+                   <span class="enumeration">Visual Studio (all versions)</span>  <span class="enumeration">PyCharm</span>  <span class="enumeration">IPython</span>  <span class="enumeration">IPython Notebook</span>  <span class="enumeration">Pythonanywhere</span>  <span class="enumeration">Spyder</span>  <span class="enumeration">RoboMongo</span>  <span class="enumeration">Photoshop</span>  <span class="enumeration">GIMP</span>  <span class="enumeration">Inkscape</span> 
+              </li>
+                <li class="card-nested skill experienced">
+                  <strong>Other (experienced):</strong> 
+                   <span class="enumeration">Git</span>  <span class="enumeration">GitHub</span>  <span class="enumeration">Subversion</span>  <span class="enumeration">Node.js</span> 
+              </li>
+            </ul>
+  
+            <h4 id="education"><span class="fa fa-lg fa-mortar-board"></span> <span class="title">Education</span></h4>
+            
+            <ul class="list-unstyled">
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm">
+                      <strong>Computer Science, BSc (Hons) - 2:1</strong>,&nbsp;
+                      University of Birmingham, UK
+                    </p>
+                    <p class="text-muted">
+                      <small>
+                        Sep 2006 -  Jun 2010 
+                      </small>
+                    </p>
+                    <i></i>
+                    <div class="space-top labels">
+                      
+                    </div>
+                  </div>
+                </li>
+            </ul>
+
+            <h4 id="awards"><span class="fa fa-lg fa-trophy"></span> <span class="title">Awards</span></h4>
+            <ul class="list-unstyled">
+                <li class="card-nested">
+                  <div class="content has-sidebar">
+                    <p class="clear-margin-sm" itemprop="award">
+                      <strong>M101P: MongoDB for Developers</strong>,&nbsp;
+                      MongoDB University
+                    </p>
+                    <p class="text-muted">
+                      <small> Awarded on: Jul 2014 </small>
+                    </p>
+                    <p> I took on this course purely because of my rising interest in open source software, and I believed MongoDB went hand-in-hand with my personal development projects. I studied online from home and I thoroughly enjoyed learning the technology.  A certificate of completion is available here: https://university.mongodb.com/course_completion/512bf857e31744f8b028438f342a2930 </p>
+                  </div>
+                </li>
+            </ul>
+
+
+
+            <h4 id="interests"> <span class="fa fa-lg fa-heart"></span> <span class="title">Interests</span> </h4>
+            <ul class="list-unstyled">
+                <li class="card-nested">
+                  <p>
+                    <strong>Current Professional Interests</strong>
+                  </p>
+
+                  <div class="space-top labels">
+                      <span class="label label-keyword">FOSS</span>
+                      <span class="label label-keyword">AngularJS</span>
+                      <span class="label label-keyword">Python</span>
+                      <span class="label label-keyword">Pandas</span>
+                  </div>
+                </li>
+                <li class="card-nested">
+                  <p>
+                    <strong>Personal</strong>
+                  </p>
+
+                  <div class="space-top labels">
+                      <span class="label label-keyword">Health and fitness</span>
+                      <span class="label label-keyword">Music (playing and performing)</span>
+                  </div>
+                </li>
+            </ul>
+
+            <h4 id="references"><span class="fa fa-lg fa-thumbs-up"></span> <span class="title">References</span> </h4>
+            <ul class="list-unstyled">
+                <li class="card-nested">
+                  <p>
+                    <strong>Pratim Das</strong>
+                  </p>
+                  <blockquote class="quote">
+                    <p class="clear-margin">I have known Arjun for a long time now, both professionally and personally. Arjun was one of the best grad developers I have worked with - he was knowledgeable, enthusiastic and a pleasure to work with. During his time at IFPI he was keen to learn new technologies and was able to deliver on some solid solutions which are still in use. Arjun also has a thorough understanding of fundamentals of computer science and was also very creative in his programming. I look forward to working again with Arjun in the near future.</p>
+                  </blockquote>
+                </li>
+            </ul>
+
+            <h4 id="languages"><span class="fa fa-lg fa-language"></span> <span class="title">Languages</span> </h4>
+            <p class="card-nested">
+                <span class="enumeration">
+                  <strong>English</strong> (Native speaker)
+                </span>
+                <span class="enumeration">
+                  <strong>Punjabi</strong> (Professional working proficiency)
+                </span>
+            </ul>
+
+          </div>
+        </div>
+      </section>
+    </div>
+    
+  <script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+</html>

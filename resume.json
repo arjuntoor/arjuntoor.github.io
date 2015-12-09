@@ -30,12 +30,12 @@
 		"position": 	"Systems Developer",
 		"website": 		"http://bt.com",
 		"startDate": 	"2012-04-17",
-		"summary": 		"The BT Global Services DFTS project is a large scale contract providing communications technology to the Ministry of Defence. I develop and support the Siebel Call Center and related systems which handle ordering, fault reporting, and more. My focus lies in the design and development of new functionality both internal and integrated, with emphasis on automation.  My success in the role has been recognised well and has resulted in greater responsibility in the team.",
+		"summary": 		"The BT Global Services DFTS project is a large scale contract providing communications technology to the Ministry of Defence. I develop and support the Siebel Call Center and related systems which handle ordering, fault reporting, and more. My focus lies in the design and development of new functionality, both internal and integrated, with emphasis on automation.  My success in the role has been recognised well and has resulted in greater responsibility in the team.",
 		"highlights": [
 		  "Developed a .NET Web Service to integrate Excel spreadsheets with the Siebel system, to create and process orders. Involved integrating a number of technical components e.g. SOAP, Oracle, OLEDB, and .NET drivers.",
 		  "Helped carry out the large scale upgrades of our production Siebel instances from Siebel 7 to 8.  Required significant planning and technical involvement at all levels.",
 		  "Implementation of a generic ASP.NET SOAP interface service to run processes on demand. Has repeatedly been used by other developers to interface into our systems.",
-		  "Maintaining a custom .NET class library containing many useful generic components, e.g. command line parsing and utility classes. Has ben widely re-used.",
+		  "Maintaining a custom .NET class library containing many useful generic components, e.g. command line parsing and utility classes. Has been widely re-used.",
 		  "Developed many other .NET applications covering, for example, data feeds, text matching, and data transformations."
 		]
 	}, {
@@ -46,7 +46,7 @@
 		"endDate": 		"2012-04-01",
 		"summary": 		"I was responsible for the design and development of internal web applications and developing solutions for a variety of real-world and important problems.  This was a fast paced, cross functional role with focus on time-scales and reliability of solutions.",
 		"highlights": [
-		  "Developed an 'all in one' ASP.NET web application used by the senior task force for daily meetings to manage high-priority cases. Consisted of a dynamic front end using ASP.NET AJAX, several layers of data extraction using TSQL and SSIS, and integration with the NicheRMS API. It has since been shared with neighboring police forces.",
+		  "Developed an 'all in one' ASP.NET web application used by the senior task force for daily meetings to manage high-priority cases. Consisted of a dynamic front end using ASP.NET AJAX, several layers of data extraction using TSQL and SSIS, and integration with the NicheRMS API. The site has since been shared with neighboring police forces.",
 		  "Developed an interactive organisational chart web app using ASP.NET, Javascript and gRaphael, and SQL Server / MySQL for the back end data extracts.",
 		  "Was heavily involved in a contract project to develop a new set of systems around reporting and statistics. Had exposure to an array of new technologies, including Microsoft Business Intelligence stack and dimensional data modeling. I gained an understanding of the agile management style from technical and non-technical perspectives.",
 		  "Strived to implement better development practices and coding techniques amongst the team, making a great impact."
@@ -57,11 +57,11 @@
 		"website": 		"http://www.digitaltrading.co.uk/",
 		"startDate": 	"2010-07-01",
 		"endDate": 		"2011-02-01",
-		"summary": 		"As a web developer I was responsible for developing customized, robust website solutions and components for clients, working for an entrepreneurial and successful website development and client consulting company. All projects involved in-depth design elements, working closely with graphics designers and clients. The projects I delivered included front- and back-end programming with highly customized functionality, such as PayPal IPN integration, custom shopping carts, and galleries.",
+		"summary": 		"I was responsible for developing customized websites and DotNetNuke components, working for an entrepreneurial website development and client consulting company. All projects involved working with graphics designers and clients.",
 		"highlights": [
-			"Quickly learning the technologies of ASP.NET and DotNetNuke CMS on the job through online resources, shadowing and pair-programming. I was constantly practicing newly learned skills to develop the many versatile modules which are still in use by clients today.",
-			"I consistently met short deadlines for all projects, showing my ability to prioritize and multi-task conflicting projects effectively.",
-			"Post-employment, I provided technical consultancy assisting in further development work for the company."
+		  "Created several DotNetNuke websites with custom shopping cart systems and integration with the PayPal IPN system.",
+		  "Consistently met short deadlines for all projects, showing my ability to prioritize and multi-task conflicting projects effectively.",
+		  "Post-employment, I provided technical consultancy carrying out further development work for the company."
 		]
 	}, {
 		"company": 		"IFPI London, Madrid, Hamburg and São Paulo",
@@ -69,11 +69,11 @@
 		"website": 		"http://ifpi.org",
 		"startDate": 	"2008-06-01",
 		"endDate": 		"2009-09-01",
-		"summary": 		"I was fully responsible for complete automation of website data harvesting, to assist with legal pursuits of violation of digital music copyright legislations. This entailed full solution design and implementation. As an on-the-job trained specialist in this niche field I would regularly provide training and coaching to partners across the globe. Thus as a result I played a key role in coordinating the global effort to reduce internet music piracy.",
+		"summary": 		"I was fully responsible for automation and management of website data harvesting, to assist with legal pursuits of violation of digital music copyright legislation. This entailed full solution design and implementation. I would regularly provide training and coaching to partners across the globe; thus I played a key role in coordinating the global effort to reduce internet music piracy.",
 		"highlights": [
-			"Upon recommendation from my senior managers, I provided seminars and training for small to large groups in Spain, Germany and Brazil, with transformational results. I consistently received excellent feedback from attendees and their management.",
-			"Quickly recognized as an invaluable asset due to my positive impact on productivity. I became an expert source of knowledge for many developers across the globe due to my expertise in the bespoke software and internal systems.",
-			"Many of the systems and techniques I developed are still taught and used today to the newer developers."
+		  "Development of several hundred netbots to perform web data extraction, using a Java-based system (now Kofax). As the first in the industry to use the software for our purpose",
+		  "Development of an internal JSP website to manage all aspects of the extraction process, including an Oracle-based API for global partners to interface with our system.",
+		  "Upon recommendation from my senior managers, I provided seminars and training in person for small to large groups in Spain, Germany and Brazil, with exceptional results."
 		]
 	}],
 	"education": [{
@@ -152,7 +152,7 @@
 	    "level": "Experienced",
 	    "keywords": [
 			"Visual Studio (all versions)",
-			"Pycharm",
+			"PyCharm",
 			"IPython",
 			"IPython Notebook",
 			"Pythonanywhere",
@@ -176,7 +176,7 @@
 		"title": 	"M101P: MongoDB for Developers",
 		"date": 	"2014-07-01",
 		"awarder": 	"MongoDB University",
-		"summary": 	"https://university.mongodb.com/course_completion/512bf857e31744f8b028438f342a2930"
+		"summary": 	"I took on this course purely because of my rising interest in open source software, and I believed MongoDB went hand-in-hand with my personal development projects. I studied online from home and I thoroughly enjoyed learning the technology.  A certificate of completion is available here: https://university.mongodb.com/course_completion/512bf857e31744f8b028438f342a2930"
 	}],
 	"languages": [{
 		"language": "English",
@@ -186,15 +186,18 @@
 		"fluency": "Professional working proficiency"
 	}],
 	"interests": [{
-		"name": "Professional",
+		"name": "Current Professional Interests",
 		"keywords": [
-			"FOSS"
+		  "FOSS",
+		  "AngularJS",
+		  "Python",
+		  "Pandas"
 		]
 	}, {
 		"name": "Personal",
 	  	"keywords": [
 		  	"Health and fitness",
-		  	"Music"
+		  	"Music (playing and performing)"
 		]
 	}],
 	"references": [{
