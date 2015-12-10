@@ -6,7 +6,7 @@
 		"email": "a.toor@hotmail.co.uk",
 		"phone": "",
 		"website": "http://arjuntoor.co.uk",
-		"summary": "As a talented and ambitious professional I am looking for an exciting opportunity to match my career aspirations. With a range of skills in both web and software development projects, I am able to approach all challenges with confidence. In previous positions I have combined my technical development skills with business mindedness to become fully involved in projects and across teams. The high quality of work I produce is a result of this experience and passion. I wish to develop my skills further in an exciting client oriented environment with a strong focus on delivering high quality web and software solutions.",
+		"summary": "As a talented and ambitious professional I am actively looking for an exciting opportunity to match my career aspirations. With a range of skills in both web and software development projects, I am able to approach all challenges with confidence. I wish to develop my skills further in an exciting client oriented environment with a strong focus on delivering high quality web and software solutions.",
 		"location": {
 			"city": "Swindon",
 			"countryCode": "UK"
@@ -30,13 +30,13 @@
 		"position": 	"Systems Developer",
 		"website": 		"http://bt.com",
 		"startDate": 	"2012-04-17",
-		"summary": 		"The BT Global Services DFTS project is a large scale contract providing communications technology to the Ministry of Defence. I develop and support the Siebel Call Center and related systems which handle ordering, fault reporting, and more. My focus lies in the design and development of new functionality, both internal and integrated, with emphasis on automation.  My success in the role has been recognised well and has resulted in greater responsibility in the team.",
+		"summary": 		"The BT DFTS project is a large scale contract providing communications technology to the Ministry of Defence. I develop and support the Siebel Call Center and related systems which handle ordering, fault reporting, and more. My focus lies in the design and development of new functionality, both internal and integrated, with emphasis on automation.  My success in the role has been recognised well and has resulted in greater responsibility in the team.",
 		"highlights": [
 		  "Developed a .NET Web Service to integrate Excel spreadsheets with the Siebel system, to create and process orders. Involved integrating a number of technical components e.g. SOAP, Oracle, OLEDB, and .NET drivers.",
 		  "Helped carry out the large scale upgrades of our production Siebel instances from Siebel 7 to 8.  Required significant planning and technical involvement at all levels.",
 		  "Implementation of a generic ASP.NET SOAP interface service to run processes on demand. Has repeatedly been used by other developers to interface into our systems.",
 		  "Maintaining a custom .NET class library containing many useful generic components, e.g. command line parsing and utility classes. Has been widely re-used.",
-		  "Developed many other .NET applications covering, for example, data feeds, text matching, and data transformations."
+		  "Developed many other .NET applications covering, for example, data feeds, fuzzy text matching, and data transformations."
 		]
 	}, {
 		"company": 		"Wiltshire Police",
@@ -48,7 +48,7 @@
 		"highlights": [
 		  "Developed an 'all in one' ASP.NET web application used by the senior task force for daily meetings to manage high-priority cases. Consisted of a dynamic front end using ASP.NET AJAX, several layers of data extraction using TSQL and SSIS, and integration with the NicheRMS API. The site has since been shared with neighboring police forces.",
 		  "Developed an interactive organisational chart web app using ASP.NET, Javascript and gRaphael, and SQL Server / MySQL for the back end data extracts.",
-		  "Was heavily involved in a contract project to develop a new set of systems around reporting and statistics. Had exposure to an array of new technologies, including Microsoft Business Intelligence stack and dimensional data modeling. I gained an understanding of the agile management style from technical and non-technical perspectives.",
+		  "Was heavily involved in a contract project to develop a new set of systems around reporting and statistics. Had exposure to an array of new technologies, including Microsoft Business Intelligence stack and dimensional data modeling. In the process I gained a good understanding of the agile management style.",
 		  "Strived to implement better development practices and coding techniques amongst the team, making a great impact."
 		]
 	}, {
@@ -176,7 +176,7 @@
 		"title": 	"M101P: MongoDB for Developers",
 		"date": 	"2014-07-01",
 		"awarder": 	"MongoDB University",
-		"summary": 	"I took on this course purely because of my rising interest in open source software, and I believed MongoDB went hand-in-hand with my personal development projects. I studied online from home and I thoroughly enjoyed learning the technology.  A certificate of completion is available here: https://university.mongodb.com/course_completion/512bf857e31744f8b028438f342a2930"
+		"summary": 	"I took this course because of my rising interest in open source software, and I believed MongoDB went hand-in-hand with my personal development projects. I studied online from home and I thoroughly enjoyed learning the technology.  A certificate of completion is available here: [link]"
 	}],
 	"languages": [{
 		"language": "English",
