@@ -71,7 +71,7 @@
 		"endDate": 	"2009-09-01",
 		"summary": 	"I was responsible for the development and management of automated website data harvesting, whose data was used in legal pursuits of violation of digital music copyright laws. The role entailed full solution design and implementation. I would regularly provide training and coaching to partners across the globe; thus I played a key role in coordinating the global effort to reduce internet music piracy.",
 		"highlights": [
-		  "Development of several hundred netbots to perform web data extraction, using a Java-based system (now Kofax). As the first in the industry to use the software for our purpose",
+		  "Development of several hundred netbots to perform web data extraction, using a Java-based system (now Kofax). As the first in the industry to use the software for our purpose, I pioneered many of the techniques which are still used today.",
 		  "Development of an internal JSP website to manage all aspects of the extraction process, including an Oracle-based API for global partners to interface with our system.",
 		  "Upon recommendation from my senior managers, I provided seminars and training in person for small to large groups in Spain, Germany and Brazil, with exceptional results."
 		]
@@ -191,7 +191,8 @@
 		  "FOSS",
 		  "AngularJS",
 		  "Python",
-		  "Pandas"
+		  "Pandas",
+		  "Webapp building"
 		]
 	}, {
 		"name": "Personal",
