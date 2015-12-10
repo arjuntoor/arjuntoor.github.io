@@ -1,12 +1,12 @@
 {
 	"basics": {
-		"name": "Arjun Toor",
-		"label": "Software Developer",
-		"picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAYrAAAAJGM5NWE4MmM5LTA2YmUtNGY2NS04NWYyLWUxYjhkYzU3ZTc5Nw.jpg",
-		"email": "a.toor@hotmail.co.uk",
-		"phone": "",
-		"website": "http://arjuntoor.co.uk",
-		"summary": "As a talented and ambitious professional I am actively looking for an exciting opportunity to match my career aspirations. With a range of skills in both web and software development projects, I am able to approach all challenges with confidence. I wish to develop my skills further in an exciting client oriented environment with a strong focus on delivering high quality web and software solutions.",
+		"name": 	"Arjun Toor",
+		"label": 	"Software Developer",
+		"picture": 	"https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAYrAAAAJGM5NWE4MmM5LTA2YmUtNGY2NS04NWYyLWUxYjhkYzU3ZTc5Nw.jpg",
+		"email": 	"a.toor@hotmail.co.uk",
+		"phone": 	"",
+		"website": 	"http://arjuntoor.co.uk",
+		"summary": 	"As a talented and ambitious professional I am actively looking for an exciting opportunity to match my career aspirations. With a range of skills in both web and software development projects, I am able to approach all challenges with confidence. I wish to develop my skills further in an exciting client oriented environment with a strong focus on delivering high quality web and software solutions.",
 		"location": {
 			"city": "Swindon",
 			"countryCode": "UK"
@@ -188,16 +188,16 @@
 	"interests": [{
 		"name": "Current Professional Interests",
 		"keywords": [
-		  "FOSS",
-		  "AngularJS",
-		  "Python",
-		  "Pandas",
-		  "Webapp building"
+			"FOSS",
+		  	"AngularJS",
+		  	"Python",
+		  	"Pandas",
+		  	"Webapp building"
 		]
 	}, {
 		"name": "Personal",
 	  	"keywords": [
-		  	"Health and fitness",
+	  		"Health and fitness",
 		  	"Music (playing and performing)"
 		]
 	}],
