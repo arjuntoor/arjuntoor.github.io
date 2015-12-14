@@ -57,10 +57,10 @@
 		"website": 	"http://www.digitaltrading.co.uk/",
 		"startDate": 	"2010-07-01",
 		"endDate": 	"2011-02-01",
-		"summary": 	"I was responsible for developing customised websites and DotNetNuke components, working for an entrepreneurial website development and client consulting company. All projects involved working with graphics designers and clients.",
+		"summary": 	"I was responsible for developing customised DotNetNuke websites and modules, working for an entrepreneurial website development and client consulting company. All projects involved working with graphics designers, business managers and clients.",
 		"highlights": [
 		  "Created several DotNetNuke websites with custom shopping cart systems and integration with the PayPal IPN system.",
-		  "Consistently met short deadlines for all projects, showing my ability to prioritise and multi-task conflicting projects effectively.",
+		  "Consistently met challenging deadlines for all projects, showing my ability to prioritise and multi-task conflicting projects effectively.",
 		  "Post-employment, I provided technical consultancy carrying out further development work for the company."
 		]
 	}, {
@@ -72,7 +72,7 @@
 		"summary": 	"I was responsible for the development and management of automated website data harvesting, whose data was used in legal pursuits of violation of digital music copyright laws. The role entailed full solution design and implementation. I would regularly provide training and coaching to partners across the globe; thus I played a key role in coordinating the global effort to reduce internet music piracy.",
 		"highlights": [
 		  "Development of several hundred netbots to perform web data extraction, using a Java-based system (now Kofax). As the first in the industry to use the software for our purpose, I pioneered many of the techniques which are still used today.",
-		  "Development of an internal JSP website to manage all aspects of the extraction layer, including an Oracle-based API for global partners to interface with our system.",
+		  "Development of an internal JSP website to manage all aspects of the data extraction layer, including an Oracle-backed API for global partners to interface with our system.",
 		  "Upon recommendation from my senior managers, I provided seminars and training in person for small to large groups in Spain, Germany and Brazil, with exceptional results."
 		]
 	}],
@@ -157,10 +157,7 @@
 			"Spyder",
 			"RoboMongo",
 			"Toad",
-			"SQL Developer",
-			"Photoshop",
-			"GIMP",
-			"Inkscape"
+			"SQL Developer"
 	    ]
 	} ,{
 		"name": "Other",
@@ -168,14 +165,17 @@
 		"keywords": [
 			"Git",
 			"GitHub",
-			"Subversion"
+			"Subversion",
+			"Photoshop",
+			"GIMP",
+			"Inkscape"
 		]
 	}],
 	"awards": [{
 		"title": 	"M101P: MongoDB for Developers",
 		"date": 	"2014-07-01",
 		"awarder": 	"MongoDB University",
-		"summary": 	"I took this course because of my recent increasing interest in open source software, and I believed MongoDB went hand-in-hand with my personal development projects. I studied online from home and I thoroughly enjoyed learning the technology.  A certificate of completion is available here: [link]"
+		"summary": 	"I took this course because of my recent increasing interest in open source software, and I believed MongoDB went hand-in-hand with my personal development projects. I studied online from home and I thoroughly enjoyed learning the technology. A certificate of completion is available to view from my homepage."
 	}],
 	"languages": [{
 		"language": "English",
@@ -189,6 +189,7 @@
 		"keywords": [
 			"FOSS",
 		  	"AngularJS",
+		  	"Node.JS",
 		  	"Python",
 		  	"Pandas",
 		  	"Webapp building"
