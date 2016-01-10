@@ -1,0 +1,9 @@
+To publish to account:
+
+1) resume publish --theme elegant  (choose Publish to your account)
+
+
+To publish to arjuntoor.co.uk:
+
+1) Publish to account as above
+2) ./resume_deploy.sh   on pythonanywhere
