@@ -27,9 +27,20 @@
 	},
 	"work": [{
 		"company": 	"British Telecom",
+		"position": 	"Security Software Developer Consultant",
+		"website": 	"http://bt.com",
+		"startDate": 	"2016-05-13",
+		"summary": 	"Working on a specialist software engineering team within BT on a range of development projects on secure contracts. DV cleared since June 2016.",
+		"highlights": [
+		  "",
+		  ""
+		]
+	}, {
+		"company": 	"British Telecom",
 		"position": 	"Systems Developer",
 		"website": 	"http://bt.com",
 		"startDate": 	"2012-04-17",
+		"endDate":	"2016-04-30",
 		"summary": 	"The BT DFTS project is a large scale contract providing communications technology to the Ministry of Defence. I develop and support the Siebel Call Center and related systems which handle ordering, fault reporting, and more. My focus lies in the design and development of new functionality, both internal and integrated, with emphasis on automation. My success in the role has been recognised well and has resulted in greater responsibility in the team.",
 		"highlights": [
 		  "Developed a .NET Web Service to integrate Excel spreadsheets with the Siebel system, to create and process orders. Involved integrating a number of technical components e.g. SOAP, Oracle, OLEDB, and .NET drivers.",
@@ -104,7 +115,8 @@
 			"REST",
 			"SOAP",
 			"XML",
-            "XSLT"
+            "XSLT",
+			"Yeoman"
 		]
 	}, {
 		"name": "Software Development",
@@ -112,7 +124,7 @@
 		"keywords": [
 			"C#.NET",
             "Python",            
-			"Java",			
+			"Java",
 			"Siebel",
 			"JUnit",
 			"NUnit"
@@ -138,6 +150,7 @@
 		"name": "Administration",
 		"level": "Experienced",
 		"keywords": [
+			"Vagrant",
 			"Windows Terminal Services",
 			"PowerShell",
 			"Batch scripting",
