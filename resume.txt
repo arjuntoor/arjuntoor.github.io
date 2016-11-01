@@ -41,15 +41,15 @@ work [1]
   highlights [0]
     desc = Developed a .NET Web Service to integrate Excel spreadsheets with the Siebel system, to create and process orders. Involved integrating a number of technical components e.g. SOAP, Oracle, OLEDB, and .NET drivers.
   highlights [1]
-    Helped carry out the large scale upgrades of our production Siebel instances from Siebel 7 to 8. Required significant planning and technical involvement at all levels
+    desc = Helped carry out the large scale upgrades of our production Siebel instances from Siebel 7 to 8. Required significant planning and technical involvement at all levels
   highlights [2]
-    Implementation of a generic ASP.NET SOAP interface service to run processes on demand. Has repeatedly been used by other developers to interface into our systems.
+    desc = Implementation of a generic ASP.NET SOAP interface service to run processes on demand. Has repeatedly been used by other developers to interface into our systems.
   highlights [3]
-    Solely responsible for end-to-end implementation of a WCF .NET middleware service to allow two systems from different vendors to communicate and synchronise data. Required collaboration between multiple stakeholders and areas of the business.
+    desc = Solely responsible for end-to-end implementation of a WCF .NET middleware service to allow two systems from different vendors to communicate and synchronise data. Required collaboration between multiple stakeholders and areas of the business.
   highlights [4]
-    Maintaining a custom .NET class library containing many useful generic components, e.g. command line parsing and utility classes. Has been widely re-used.
+    desc = Maintaining a custom .NET class library containing many useful generic components, e.g. command line parsing and utility classes. Has been widely re-used.
   highlights [5]
-    Developed many other .NET applications covering, for example, data feeds, fuzzy text matching, and data transformations.
+    desc = Developed many other .NET applications covering, for example, data feeds, fuzzy text matching, and data transformations.
 
 work[2]
   company = Wiltshire Police
@@ -137,7 +137,6 @@ awards [0]
 languages [0]
   language = English
   fluency = Native speaker
-
 languages [1]
   language = Punjabi
 	fluency = Professional working proficiency
