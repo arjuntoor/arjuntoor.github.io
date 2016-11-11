@@ -30,7 +30,7 @@ work [0]
   website = http://bt.com
   startDate = 2016-05-13
   summary = Working on a specialist software engineering team within BT on a range of development projects on secure contracts.
-#stringArray
+#startStringArray
   highlights [0]
     desc = Leading a team of developers of varying expertise for extended periods, whilst managing sprints and business commitments.
 #endStringArray
@@ -42,7 +42,7 @@ work [1]
   startDate = 2012-04-17
   endDate = 2016-04-30
   summary = The BT DFTS project is a large scale contract providing communications technology to the Ministry of Defence. I develop and support the Siebel Call Center and related systems which handle ordering, fault reporting, and more. My focus lies in the design and development of new functionality, both internal and integrated, with emphasis on automation. My success in the role has been recognised well and has resulted in greater responsibility in the team.
-#stringArray
+#startStringArray
   highlights [0]
     desc = Developed a .NET Web Service to integrate Excel spreadsheets with the Siebel system, to create and process orders. Involved integrating a number of technical components e.g. SOAP, Oracle, OLEDB, and .NET drivers.
   highlights [1]
@@ -64,7 +64,7 @@ work[2]
   startDate = 2011-03-01
   endDate = 2012-04-01
   summary = I was responsible for the design and development of internal web applications and developing solutions for a variety of important real-world problems. In a short space of time I tackled many challenging projects, whilst learning the operational aspects of working for a Police force. This was a fast paced, multi-functional role with focus on time-scales and reliability of solutions, on which I was able to deliver successfully.
-#stringArray
+#startStringArray
   highlights [0]
     desc = Developed an 'all in one' ASP.NET web application used by the senior task force for daily meetings to manage high-priority cases. Consisted of a dynamic front end using ASP.NET AJAX, several layers of data extraction using TSQL and SSIS, and integration with the NicheRMS API. The site has since been shared with neighboring police forces.
   highlights [1]
@@ -82,7 +82,7 @@ work[3]
   startDate = 2010-07-01
   endDate = 2011-02-01
   summary = I was responsible for developing customised DotNetNuke websites and modules, working for an entrepreneurial website development and client consulting company. All projects involved working with graphics designers, business managers and clients.
-#stringArray
+#startStringArray
   highlights [0]
     desc = Created several DotNetNuke websites with custom shopping cart systems and integration with the PayPal IPN system.
   highlights [1]
@@ -98,7 +98,7 @@ work[4]
   startDate = 2008-06-01
   endDate = 2009-09-01
   summary = I was responsible for the development and management of automated online data harvesting, whose data was used in legal pursuits of Digital Music Copyright violation. The role entailed full solution design and implementation. I would regularly provide training and coaching to partners across the globe; thus I played a key role in coordinating the global effort to reduce internet music piracy.
-#stringArray
+#startStringArray
   highlights [0]
     desc = Development of several hundred netbots to perform web data extraction, using a Java-based system (now Kofax). As the first in the industry to use the software for our purpose, I pioneered many of the techniques which are still used today.
   highlights [1]

@@ -8,7 +8,7 @@ def convert_resume(resume_file):
     for line in resume_source:
 
         # check if we're on a starting point
-        if line.find('#stringArray') != -1:
+        if line.find('#startStringArray') != -1:
             # do the pre stuff:
             # 1. move forward a line
             line = next(resume_source)
