@@ -1,22 +1,22 @@
 {
-  "name": "my-resume",
-  "version": "1.0.0",
-  "description": "My resume",
-  "keywords": [
-    "resume"
-  ],
-  "homepage": "https://bitbucket.org/a12jun/my-resume#readme",
-  "license": "ISC",
-  "author": "Arjun Toor",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://a12jun@bitbucket.org/a12jun/my-resume.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "resume-cli": "^0.4.14"
-  }
+	"name": "my-resume",
+	"version": "1.0.0",
+	"description": "My resume",
+	"keywords": [
+		"resume"
+	],
+	"homepage": "https://bitbucket.org/a12jun/my-resume#readme",
+	"license": "ISC",
+	"author": "Arjun Toor",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://a12jun@bitbucket.org/a12jun/my-resume.git"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"resume-cli": "^0.4.14"
+	}
 }
