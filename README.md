@@ -2,7 +2,7 @@
 
 This resume has been created using [JSON Resume](https://jsonresume.org) and [ObjGen](www.objgen.com/json).
 
-After cloning this repo, type `npm install` from the base directory to install dependencies.  All following ocmands should also be done from the base directory.
+After cloning this repo, type `npm install` from the base directory to install dependencies.  All of the following commands should also be done from the base directory.
 
 ## To edit the resume
 
