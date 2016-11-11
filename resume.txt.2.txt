@@ -30,11 +30,7 @@ work [0]
   website = http://bt.com
   startDate = 2016-05-13
   summary = Working on a specialist software engineering team within BT on a range of development projects on secure contracts.
-#stringArray
-  highlights [0]
-    desc = Leading a team of developers of varying expertise for extended periods, whilst managing sprints and business commitments.
-#endStringArray
-
+  highlights [] s =  Leading a team of developers of varying expertise for extended periods&#44; whilst managing sprints and business commitments.
 work [1]
   company = British Telecom
   position = Systems Developer
@@ -42,21 +38,7 @@ work [1]
   startDate = 2012-04-17
   endDate = 2016-04-30
   summary = The BT DFTS project is a large scale contract providing communications technology to the Ministry of Defence. I develop and support the Siebel Call Center and related systems which handle ordering, fault reporting, and more. My focus lies in the design and development of new functionality, both internal and integrated, with emphasis on automation. My success in the role has been recognised well and has resulted in greater responsibility in the team.
-#stringArray
-  highlights [0]
-    desc = Developed a .NET Web Service to integrate Excel spreadsheets with the Siebel system, to create and process orders. Involved integrating a number of technical components e.g. SOAP, Oracle, OLEDB, and .NET drivers.
-  highlights [1]
-    desc = Helped carry out the large scale upgrades of our production Siebel instances from Siebel 7 to 8. Required significant planning and technical involvement at all levels
-  highlights [2]
-    desc = Implementation of a generic ASP.NET SOAP interface service to run processes on demand. Has repeatedly been used by other developers to interface into our systems.
-  highlights [3]
-    desc = Solely responsible for end-to-end implementation of a WCF .NET middleware service to allow two systems from different vendors to communicate and synchronise data. Required collaboration between multiple stakeholders and areas of the business.
-  highlights [4]
-    desc = Maintaining a custom .NET class library containing many useful generic components, e.g. command line parsing and utility classes. Has been widely re-used.
-  highlights [5]
-    desc = Developed many other .NET applications covering, for example, data feeds, fuzzy text matching, and data transformations.
-#endStringArray
-
+  highlights [] s =  Developed a .NET Web Service to integrate Excel spreadsheets with the Siebel system&#44; to create and process orders. Involved integrating a number of technical components e.g. SOAP&#44; Oracle&#44; OLEDB&#44; and .NET drivers.,Helped carry out the large scale upgrades of our production Siebel instances from Siebel 7 to 8. Required significant planning and technical involvement at all levels,Implementation of a generic ASP.NET SOAP interface service to run processes on demand. Has repeatedly been used by other developers to interface into our systems.,Solely responsible for end-to-end implementation of a WCF .NET middleware service to allow two systems from different vendors to communicate and synchronise data. Required collaboration between multiple stakeholders and areas of the business.,Maintaining a custom .NET class library containing many useful generic components&#44; e.g. command line parsing and utility classes. Has been widely re-used.,Developed many other .NET applications covering&#44; for example&#44; data feeds&#44; fuzzy text matching&#44; and data transformations.
 work[2]
   company = Wiltshire Police
   position = IST Development Officer
@@ -64,17 +46,7 @@ work[2]
   startDate = 2011-03-01
   endDate = 2012-04-01
   summary = I was responsible for the design and development of internal web applications and developing solutions for a variety of important real-world problems. In a short space of time I tackled many challenging projects, whilst learning the operational aspects of working for a Police force. This was a fast paced, multi-functional role with focus on time-scales and reliability of solutions, on which I was able to deliver successfully.
-#stringArray
-  highlights [0]
-    desc = Developed an 'all in one' ASP.NET web application used by the senior task force for daily meetings to manage high-priority cases. Consisted of a dynamic front end using ASP.NET AJAX, several layers of data extraction using TSQL and SSIS, and integration with the NicheRMS API. The site has since been shared with neighboring police forces.
-  highlights [1]
-    desc = Developed an interactive organisational chart web app using ASP.NET, Javascript and gRaphael, and SQL Server / MySQL for the back end data extracts.
-  highlights [2]
-    desc = Was heavily involved in a contract project to develop a new set of systems around reporting and statistics. Had exposure to an array of new technologies, including Microsoft Business Intelligence stack and dimensional data modeling. In the process I gained a good understanding of the agile management style.
-  highlights [3]
-    desc = Strived to implement better development practices and coding techniques amongst the team, making a great impact
-#endStringArray
-
+  highlights [] s =  Developed an 'all in one' ASP.NET web application used by the senior task force for daily meetings to manage high-priority cases. Consisted of a dynamic front end using ASP.NET AJAX&#44; several layers of data extraction using TSQL and SSIS&#44; and integration with the NicheRMS API. The site has since been shared with neighboring police forces.,Developed an interactive organisational chart web app using ASP.NET&#44; Javascript and gRaphael&#44; and SQL Server / MySQL for the back end data extracts.,Was heavily involved in a contract project to develop a new set of systems around reporting and statistics. Had exposure to an array of new technologies&#44; including Microsoft Business Intelligence stack and dimensional data modeling. In the process I gained a good understanding of the agile management style.,Strived to implement better development practices and coding techniques amongst the team&#44; making a great impact
 work[3]
   company = Digital Trading Creative
   position = Web Developer
@@ -82,15 +54,7 @@ work[3]
   startDate = 2010-07-01
   endDate = 2011-02-01
   summary = I was responsible for developing customised DotNetNuke websites and modules, working for an entrepreneurial website development and client consulting company. All projects involved working with graphics designers, business managers and clients.
-#stringArray
-  highlights [0]
-    desc = Created several DotNetNuke websites with custom shopping cart systems and integration with the PayPal IPN system.
-  highlights [1]
-    desc = Consistently met challenging deadlines for all projects, showing my ability to prioritise and multi-task conflicting projects effectively.
-  highlights [2]
-    desc = Post-employment, I provided technical consultancy carrying out further development work for the company
-#endStringArray
-
+  highlights [] s =  Created several DotNetNuke websites with custom shopping cart systems and integration with the PayPal IPN system.,Consistently met challenging deadlines for all projects&#44; showing my ability to prioritise and multi-task conflicting projects effectively.,Post-employment&#44; I provided technical consultancy carrying out further development work for the company
 work[4]
   company = IFPI London, Madrid, Hamburg and São Paulo
   position = Junior Systems Developer (Industrial Placement year)
@@ -98,15 +62,7 @@ work[4]
   startDate = 2008-06-01
   endDate = 2009-09-01
   summary = I was responsible for the development and management of automated online data harvesting, whose data was used in legal pursuits of Digital Music Copyright violation. The role entailed full solution design and implementation. I would regularly provide training and coaching to partners across the globe; thus I played a key role in coordinating the global effort to reduce internet music piracy.
-#stringArray
-  highlights [0]
-    desc = Development of several hundred netbots to perform web data extraction, using a Java-based system (now Kofax). As the first in the industry to use the software for our purpose, I pioneered many of the techniques which are still used today.
-  highlights [1]
-    desc = Development of an internal JSP website to manage all aspects of the extraction layer, including an Oracle-based API for global partners to interface with our system.
-  highlights [2]
-    desc = Upon recommendation from my senior managers, I provided seminars and training in person for small to large groups in Spain, Germany and Brazil, with exceptional results.
-#endStringArray
-
+  highlights [] s =  Development of several hundred netbots to perform web data extraction&#44; using a Java-based system (now Kofax). As the first in the industry to use the software for our purpose&#44; I pioneered many of the techniques which are still used today.,Development of an internal JSP website to manage all aspects of the extraction layer&#44; including an Oracle-based API for global partners to interface with our system.,Upon recommendation from my senior managers&#44; I provided seminars and training in person for small to large groups in Spain&#44; Germany and Brazil&#44; with exceptional results.
 education [0]
   institution = University of Birmingham, UK
   area = Computer Science

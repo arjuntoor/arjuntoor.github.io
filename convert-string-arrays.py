@@ -1,17 +1,46 @@
 
-highlights = []
 
-resume = open('resume.txt', 'r')
-for line in resume:
-    line = line.strip()
+def convert_resume(resume_file):
 
-    if line.find('highlights [') == 0:
-    
+    resume_source = open(resume_file, 'r')
+    resume_dest = open(resume_file + '.2.txt', 'w')
 
-        while line.find('highlights [') == 0:
-            highlights.append(next(resume).split('=')[1])
-            line = next(resume).strip()
-        print 'reached end of job after ' + str(len(highlights))
+    for line in resume_source:
 
-resume.close()
-print (highlights)
+        # check if we're on a starting point
+        if line.find('#stringArray') != -1:
+            # do the pre stuff:
+            # 1. move forward a line
+            line = next(resume_source)
+            # 2. replace 'highlights [0]' with 'highlights [] s = '
+            new_line = line.replace('[0]', '[] s = ').replace('\n', ' ')
+
+            # now we have a series of lines to iterate through
+            while line.find('#endStringArray') == -1:
+
+                # skip these lines
+                if line.find('highlights [') != -1:
+                    line = next(resume_source)
+
+                # for these, we take the value after '=', replace commas with the code, take off the newline and append an actual comma
+                if line.find('desc = ') != -1:
+                    new_line = new_line + line.split(' = ')[1].replace(',', '&#44;').replace('\n', ', ').strip()
+
+                # now move forward a line and repeat the process
+                line = next(resume_source)
+
+            # removes the trailing comma
+            line = new_line[:-1]
+
+        # write out the line
+        resume_dest.write(line)
+
+    resume_source.close()
+    resume_dest.close();
+    return resume_dest.name
+
+
+if __name__ == '__main__':
+    print('Starting conversion')
+    output = convert_resume('resume.txt')
+    print(output + ' has been created')
