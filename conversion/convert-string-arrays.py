@@ -3,7 +3,7 @@
 def convert_resume(resume_file):
 
     resume_source = open(resume_file, 'r')
-    resume_dest = open(resume_file + '.2.txt', 'w')
+    resume_dest = open('conversion/staging/' + resume_source.name, 'w')
 
     for line in resume_source:
 
@@ -43,4 +43,4 @@ def convert_resume(resume_file):
 if __name__ == '__main__':
     print('Starting conversion')
     output = convert_resume('resume_raw/resume.txt')
-    print(output + ' has been created')
+    print('Complete - ' + output + ' has been created')
