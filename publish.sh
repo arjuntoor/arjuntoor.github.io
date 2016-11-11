@@ -7,6 +7,12 @@ PID=$!
 sleep 2
 
 echo "Saving as html"
-wget localhost:4000 -O out/resume.html
+wget localhost:4000 -q -O out/resume.html
 
-echo "Done"
+echo "Killing server"
+kill ${PID}
+
+echo "Copying resume to server"
+scp out/resume.html arjuntoor@ssh.pythonanywhere.com:~/sites/templates/me/
+
+echo "Done - visit arjuntoor.co.uk/me/resume to see the changes"
