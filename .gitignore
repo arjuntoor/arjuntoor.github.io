@@ -1,3 +1,5 @@
 .idea/
 .ipynb_checkpoints/
 node_modules
+conversion/staging
+index.html

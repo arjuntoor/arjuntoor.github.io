@@ -42,5 +42,5 @@ def convert_resume(resume_file):
 
 if __name__ == '__main__':
     print('Starting conversion')
-    output = convert_resume('resume_raw/resume.txt')
+    output = convert_resume('resume.txt')
     print('Complete - ' + output + ' has been created')

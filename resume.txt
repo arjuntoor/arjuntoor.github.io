@@ -5,7 +5,6 @@ basics
   email = a.toor@hotmail.co.uk
   website = http://arjuntoor.co.uk
   summary = As a talented and ambitious professional I am actively looking for a new opportunity to match my career aspirations. With a range of skills covering both web and software development, I want to build on my solid foundation and take my career to the next level.  Recently I have invested a lot of time in developing personal projects (see my homepage) as I have been captivated by Python and other FOSS technologies, and I am extremely excited about the vast capabilities and avenues that I am discovering on this journey.  I now wish to utilise and build upon my dynamic skillset in an exciting environment with a focus on delivering high quality solutions.
-c
   location
     city = Swindon
     countryCode = UK
