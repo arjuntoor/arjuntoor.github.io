@@ -16,4 +16,4 @@ Once the edits are final in the text file, it needs to be translated into JSON f
 
 ## To publish
 
-1. `publish.sh` - this will publish to the JSONResume servers, then upload it to pythonanywhere
+1. `publish.sh` - this will generate the resume then upload it to pythonanywhere
