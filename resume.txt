@@ -25,7 +25,7 @@ basics
 
 work [0]
   company = British Telecom
-  position = Security Software Developer Consultant
+  position = Senior Software Engineer
   website = http://bt.com
   startDate = 2016-05-13
   summary = Working on specialist software engineering projects on secure contracts.
