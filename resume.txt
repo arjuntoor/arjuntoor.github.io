@@ -4,7 +4,7 @@ basics
   picture = https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAYrAAAAJGM5NWE4MmM5LTA2YmUtNGY2NS04NWYyLWUxYjhkYzU3ZTc5Nw.jpg
   email = a.toor@hotmail.co.uk
   website = http://arjuntoor.co.uk
-  summary = As a talented and ambitious professional I am actively looking for a new opportunity to match my career aspirations. With a range of skills covering both web and software development, I want to build on my solid foundation and take my career to the next level.  Recently I have invested a lot of time in developing personal projects (see my homepage) as I have been captivated by Python and other FOSS technologies, and I am extremely excited about the vast capabilities and avenues that I am discovering on this journey.  I now wish to utilise and build upon my dynamic skillset in an exciting environment with a focus on delivering high quality solutions.
+  summary = As a determined and talented professional, I am looking for interesting new opportunities within the software and web application development industry. My proven record has enabled me to work on a wide range of successful projects, for a number of firms ranging from startup to global giants.  My skillset and experience are both constantly growing, and I wish to utilise this in an environment that focuses on delivering high quality software whilst learning from teams of experts in the trade.
   location
     city = Swindon
     countryCode = UK
@@ -28,10 +28,12 @@ work [0]
   position = Security Software Developer Consultant
   website = http://bt.com
   startDate = 2016-05-13
-  summary = Working on a specialist software engineering team within BT on a range of development projects on secure contracts.
+  summary = Working on specialist software engineering projects on secure contracts.
 #startStringArray
   highlights [0]
     desc = Leading a team of developers of varying expertise for extended periods, whilst managing sprints and business commitments.
+  highlights [1]
+    desc = Working on a data generation and pipeline monitoring system for Big Data systems.
 #endStringArray
 
 work [1]
