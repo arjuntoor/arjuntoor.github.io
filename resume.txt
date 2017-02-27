@@ -31,11 +31,11 @@ work [0]
   summary = I was recruited into a specialist team working on various software engineering projects on secure government contracts. The first project I was involved in was a cyber security platform consisting of a mashup of a multitude of technologies and products.  Some examples include Hadoop, Kafka, Impala and Spark.  I also developed components to integrate third-party products into the data ingest pipeline, such as FireEye, DarkTrace and Cisco FireSIGHT.
 #startStringArray
   highlights [0]
-    desc = Visiting the offshore customers premesis on multiple occasions to lead the deployment of my teams components.  
+    desc = Visiting the offshore customers premesis on multiple occasions to lead the deployment of my teams components. Gained exposure to the critical operations element of the project.
   highlights [1]
     desc = Extensive experience of leading a team of developers of varying expertise, delivering against project deadlines.
   highlights [2]
-    desc = Managing sprint planning sessions and encouraging regular standups
+    desc = Managing sprint planning sessions and encouraging regular standups.
 #endStringArray
 
 work [1]
