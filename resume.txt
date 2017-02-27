@@ -28,7 +28,7 @@ work [0]
   position = Senior Software Engineer
   website = http://bt.com
   startDate = 2016-05-13
-  summary = I was recruited into a specialist team working on various software engineering projects on secure government contracts. The first project I was involved in was a cyber security platform consisting of a mashup of a multitude of technologies and products.  Some examples include Hadoop, Kafka, Impala and Spark.  I also developed components to integrate third-party products into the data ingest pipeline, such as FireEye, DarkTrace and Cisco FireSIGHT.
+  summary = I was recruited into a specialist team working on various software engineering projects on secure government contracts. The first project I was involved in was a cyber security platform consisting of a mashup of Big Data technologies.  Some examples include Hadoop, Kafka, Impala and Spark.  I also developed components to integrate third-party threat monitoring products into the data ingest pipeline, such as FireEye, DarkTrace and Cisco FireSIGHT.
 #startStringArray
   highlights [0]
     desc = Visiting the offshore customers premesis on multiple occasions to lead the deployment of my teams components. Gained exposure to the critical operations element of the project.
