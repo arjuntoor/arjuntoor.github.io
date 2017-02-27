@@ -6,7 +6,7 @@ basics
   website = http://arjuntoor.co.uk
   summary = As a determined and talented professional, I am looking for interesting new opportunities within the software and web application development industry. My proven record has enabled me to work on a wide range of successful projects, for a number of firms ranging from startup to global giants.  My skillset and experience are both constantly growing, and I wish to utilise this in an environment that focuses on delivering high quality software whilst learning from teams of experts in the trade.
   location
-    city = Swindon
+    city = London
     countryCode = UK
 
   profiles [0]
@@ -28,12 +28,14 @@ work [0]
   position = Senior Software Engineer
   website = http://bt.com
   startDate = 2016-05-13
-  summary = Working on specialist software engineering projects on secure contracts.
+  summary = I was recruited into a specialist team working on various software engineering projects on secure government contracts. The first project I was involved in was a cyber security platform consisting of a mashup of a multitude of technologies and products.  Some examples include Hadoop, Kafka, Impala and Spark.  I also developed components to integrate third-party products into the data ingest pipeline, such as FireEye, DarkTrace and Cisco FireSIGHT.
 #startStringArray
   highlights [0]
-    desc = Leading a team of developers of varying expertise for extended periods, whilst managing sprints and business commitments.
+    desc = Visiting the offshore customers premesis on multiple occasions to lead the deployment of my teams components.  
   highlights [1]
-    desc = Working on a data generation and pipeline monitoring system for Big Data systems.
+    desc = Extensive experience of leading a team of developers of varying expertise, delivering against project deadlines.
+  highlights [2]
+    desc = Managing sprint planning sessions and encouraging regular standups
 #endStringArray
 
 work [1]
@@ -101,7 +103,7 @@ work[4]
   summary = I was responsible for the development and management of automated online data harvesting, whose data was used in legal pursuits of Digital Music Copyright violation. The role entailed full solution design and implementation. I would regularly provide training and coaching to partners across the globe; thus I played a key role in coordinating the global effort to reduce internet music piracy.
 #startStringArray
   highlights [0]
-    desc = Development of several hundred netbots to perform web data extraction, using a Java-based system (now Kofax). As the first in the industry to use the software for our purpose, I pioneered many of the techniques which are still used today.
+    desc = Development of several hundred bots to perform web data extraction, using a Java-based system (now Kofax). As the first in the industry to use the software for this purpose, I developed many of the techniques which are still used today.
   highlights [1]
     desc = Development of an internal JSP website to manage all aspects of the extraction layer, including an Oracle-based API for global partners to interface with our system.
   highlights [2]
@@ -121,25 +123,21 @@ skills [0]
 	level = Experienced
 	keywords[] s = JavaScript, HTML5, CSS3, Bootstrap, ASP.NET, Python, Flask, Bottle, jQuery, AngularJS, JSON, WCF, REST, SOAP, XML, XSLT, Yeoman
 skills [1]
-  name = Software Development
+  name = Backend Development
 	level = Experienced
-	keywords[] s = C#.NET, Python, Java, Siebel, JUnit, NUnit
+	keywords[] s = C#.NET, Java, Python, Siebel
 skills [2]
   name = Databases
   level = Experienced
-  keywords [] s = MS SQL Server, MongoDB, Oracle, (MS) T-SQL, (MS) Stored procedures, (MS) Functions, (MS) Jobs, (MS) SSIS, (MS) Server monitoring, (MS) Administration tasks, (Oracle) PL/SQL, (Oracle) Packages
+  keywords [] s = MS SQL Server, MongoDB, Oracle
 skills [3]
   name = Administration
   level = Experienced
-	keywords [] s = Vagrant, Windows Terminal Services, PowerShell, Batch scripting, Registry, VirtualBox, XenServer, UNIX/Linux admin and scripting, UNIX command line tools, Package management
+	keywords [] s = Vagrant, Windows Terminal Services, PowerShell, Batch scripting, Registry, VirtualBox, XenServer, UNIX/Linux admin and scripting, Package management
 skills [4]
-  name = Software Tools & IDEs
-  level = Experienced
-	keywords [] s = Visual Studio, PyCharm, IPython, IPython Notebook, Pythonanywhere, Spyder, RoboMongo, Toad, SQL Developer, SQL Server Management Studio, Microsoft SSIS
-skills [5]
   name = Other
 	level = Experienced
-	keywords [] s = Git, GitHub, Subversion, Photoshop, GIMP, Inkscape
+	keywords [] s = Git, Subversion, Photoshop, GIMP, Inkscape
 
 awards [0]
   title = M101P: MongoDB for Developers
