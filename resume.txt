@@ -28,14 +28,14 @@ work [0]
   position = Senior Software Engineer
   website = http://bt.com
   startDate = 2016-05-13
-  summary = I was recruited into a specialist team working on various software engineering projects on secure government contracts. The first project I was involved in was a cyber security platform consisting of a mashup of Big Data technologies.  Some examples include Hadoop, Kafka, Impala and Spark.  I also developed components to integrate third-party threat monitoring products into the data ingest pipeline, such as FireEye, DarkTrace and Cisco FireSIGHT.
+  summary = I was recruited into a specialist team working on various software engineering projects on secure government contracts. The first project I was involved in was a cyber security platform consisting of a mashup of Big Data technologies.  Some examples include Hadoop, Kafka, Impala and Spark.  I developed Java and Spark components to integrate third-party threat monitoring products into the data ingest pipeline, such as FireEye, DarkTrace and Cisco FireSIGHT.  I also worked extensively on new enhanced features such as performance and metric data gathering, automation, and interfacing via APIs.
 #startStringArray
   highlights [0]
     desc = Visiting the offshore customers premesis on multiple occasions to lead the deployment of my teams components. Gained exposure to the critical operations element of the project.
   highlights [1]
-    desc = Extensive experience of leading a team of developers of varying expertise, delivering against project deadlines.
+    desc = Extensive experience of leading a team of developers of varying expertise, delivering against project deadlines.  This involved mentoring team members, teaching good practice and sharing knowledge on software development principles, e.g. TDD and design patterns.
   highlights [2]
-    desc = Managing sprint planning sessions and encouraging regular standups.
+    desc = Managing sprint planning sessions and advocating regular scrum meetings.
 #endStringArray
 
 work [1]
@@ -154,7 +154,7 @@ languages [1]
 
 interests [0]
 	name = Current Professional Interests
-	keywords [] s = FOSS, MongoDB, AngularJS, NodeJS, Python,	Pandas, Webapp building
+	keywords [] s = FOSS, Big Data, MongoDB, AngularJS, NodeJS, Python,	Pandas, Webapp building
 interests [1]
   name = Personal
 	keywords [] s = Health and fitness, Music (playing and performing)
