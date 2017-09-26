@@ -6,7 +6,7 @@ basics
   website = http://arjuntoor.co.uk
   summary = As a determined and talented professional, I am looking for interesting new opportunities within the software and web application development industry. My proven record has enabled me to work on a wide range of successful projects, for a number of firms ranging from startup to global giants.  My skillset and experience are both constantly growing, and I wish to utilise this in an environment that focuses on delivering high quality software whilst learning from teams of experts in the trade.
   location
-    city = London
+    city = Swindon
     countryCode = UK
 
   profiles [0]
@@ -28,7 +28,7 @@ work [0]
   position = Senior Software Engineer
   website = http://bt.com
   startDate = 2016-05-13
-  summary = I was recruited into a specialist team working on various software engineering projects on secure government contracts. The first project I was involved in was a cyber security platform consisting of a mashup of Big Data technologies.  Some examples include Hadoop, Kafka, Impala and Spark.  I developed Java and Spark components to integrate third-party threat monitoring products into the data ingest pipeline, such as FireEye, DarkTrace and Cisco FireSIGHT.  I also worked extensively on new enhanced features such as performance and metric data gathering, automation, and interfacing via APIs.
+  summary = I was recruited into a specialist team working on various software engineering projects on secure government contracts. The main project I was involved in was a cyber security platform consisting of a mashup of Big Data technologies.  Some examples include Hadoop, Kafka, Impala and Spark.  I developed Java and Spark components to integrate third-party threat monitoring products into the data ingest pipeline, such as FireEye, DarkTrace and Cisco FireSIGHT.  I also worked extensively on new enhanced features such as performance and metric data gathering, automation, and interfacing via APIs.
 #startStringArray
   highlights [0]
     desc = Visiting the offshore customers premesis on multiple occasions to lead the deployment of my teams components. Gained exposure to the critical operations element of the project.
@@ -121,11 +121,11 @@ education [0]
 skills [0]
   name = Web Development
 	level = Experienced
-	keywords[] s = JavaScript, HTML5, CSS3, Bootstrap, ASP.NET, Python, Flask, Bottle, jQuery, AngularJS, JSON, WCF, REST, SOAP, XML, XSLT, Yeoman
+	keywords[] s = JavaScript, HTML5, CSS3, NodeJS, AngularJS, Vue.JS, Yeoman, Bootstrap, jQuery, ASP.NET, Python, Flask, Bottle, WCF, REST, SOAP, XML, XSLT
 skills [1]
   name = Backend Development
 	level = Experienced
-	keywords[] s = C#.NET, Java, Python, Siebel
+	keywords[] s = Java, .NET, WCF, WPF, Python, Siebel
 skills [2]
   name = Databases
   level = Experienced
@@ -133,11 +133,7 @@ skills [2]
 skills [3]
   name = Administration
   level = Experienced
-	keywords [] s = Vagrant, Windows Terminal Services, PowerShell, Batch scripting, Registry, VirtualBox, XenServer, UNIX/Linux admin and scripting, Package management
-skills [4]
-  name = Other
-	level = Experienced
-	keywords [] s = Git, Subversion, Photoshop, GIMP, Inkscape
+	keywords [] s = Linux, Bash scripting, Automation, Ansible, Puppet, Vagrant, Docker, Package management, Package distribution, Windows, PowerShell, Batch scripting, Registry, Virtualisation
 
 awards [0]
   title = M101P: MongoDB for Developers
