@@ -1,5 +1,6 @@
 .idea/
 .ipynb_checkpoints/
+.vagrant/
 node_modules
 conversion/staging
 index.html
