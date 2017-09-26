@@ -2,6 +2,7 @@
 .ipynb_checkpoints/
 .vagrant/
 node_modules
+npm-debug.log
 conversion/staging
 index.html
 resume.json
