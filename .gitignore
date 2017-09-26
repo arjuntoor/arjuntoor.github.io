@@ -3,8 +3,11 @@
 .vagrant/
 node_modules
 npm-debug.log
-conversion/staging
+conversion/staging/*
 index.html
 resume.json
 out
 public
+
+
+!conversion/staging/empty
