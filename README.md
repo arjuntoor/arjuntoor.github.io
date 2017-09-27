@@ -11,8 +11,7 @@ Edit `resume.txt` as required.  The syntax of this file is easier to edit than p
 Once the edits are final in the text file, it needs to be translated into JSON format; to do so, follow these steps:
 
 1. Run `python conversion/convert-string-arrays.py` if using the `#startStringArray` shortcut
-1. Run the output through the ObjGen JSON generator
-1. Save this output into `resume.json`
+1. Run `npm run resume` to generate the resume in json
 
 ## To publish
 
