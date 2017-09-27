@@ -14,9 +14,11 @@
 		"url": "git+https://a12jun@bitbucket.org/a12jun/my-resume.git"
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"resume": "node build-resume.js"
 	},
 	"dependencies": {
-		"resume-cli": "^0.4.14"
+		"resume-cli": "^0.4.14",
+		"objgen": "4.0.3"
 	}
 }
