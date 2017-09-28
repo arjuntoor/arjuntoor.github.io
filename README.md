@@ -2,17 +2,29 @@
 
 This resume has been created using [JSON Resume](https://jsonresume.org) and [ObjGen](www.objgen.com/json).
 
-After cloning this repo, type `npm install` from the base directory to install dependencies.  All of the following commands should also be done from the base directory.
 
-## To edit the resume
 
-Edit `resume.txt` as required.  The syntax of this file is easier to edit than pure JSON.
+## Workflow
 
-Once the edits are final in the text file, it needs to be translated into JSON format; to do so, follow these steps:
+### One-off 
+1. Ensure you have NodeJS, git and Python installed 
+1. Clone this repo
+1. `cd my-resume` then type `npm install` to install dependencies
 
-1. Run `python conversion/convert-string-arrays.py` if using the `#startStringArray` shortcut
-1. Run `npm run resume` to generate the resume in json
+### Editing and publishing
+1. Edit the raw text resume
+1. Run conversions
+1. Choose how you want to publish the resume
 
-## To publish
+## Edit the raw text resume
+
+Edit `src/resume.txt` as required.  The syntax of this file is easier to edit than pure JSON.  See src/README.md for more details.
+
+## Run conversions
+
+1. Run `python conversion/convert-string-arrays.py` if using the `#startStringArray` shortcut.  This overcomes a slight limitation in the ObjGen format
+1. Run `npm run jsonify` to generate the resume in JSON Resume format
+
+## Choose how you want to publish the resume
 
 1. `publish.sh` - this will generate the resume then upload it to pythonanywhere

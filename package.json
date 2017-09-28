@@ -15,7 +15,8 @@
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"resume": "node build/build-resume.js"
+		"resume": "node build/build-resume.js",
+		"deploy": "echo \"This is the deploy script\""
 	},
 	"dependencies": {
 		"resume-cli": "^0.4.14",

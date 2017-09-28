@@ -2,11 +2,11 @@
 var objgen = require('objgen/objgen').ObjGen
 var fs = require('fs');
 
-fs.readFile('resume.txt', 'utf8', function(err, raw_file) {  
+fs.readFile('src/resume.txt', 'utf8', function(err, raw_file) {  
     if (err) console.log(err);
     
     var json = convertToJson(raw_file);
-    saveFile(json, {name:'resume.json', overwrite:true});
+    saveFile(json, {name:'dist/resume.json', overwrite:true});
 });
 
 
