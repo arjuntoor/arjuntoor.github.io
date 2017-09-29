@@ -2,12 +2,22 @@
 var objgen = require('objgen/objgen').ObjGen
 var fs = require('fs');
 
-fs.readFile('src/resume.txt', 'utf8', function(err, raw_file) {  
-    if (err) console.log(err);
+
+function main() {
+    fs.readFile('src/resume.txt', 'utf8', buildResume);
+}
+
+/**
+ * 
+ * @param {*} error 
+ * @param {*} rawFileContents 
+ */
+function buildResume(error, rawFileContents) {  
+    if (error) throw error;
     
-    var json = convertToJson(raw_file);
-    saveFile(json, {name:'dist/resume.json', overwrite:true});
-});
+    var json = convertToJson(rawFileContents);
+    saveFile(json, {name:'dist/resume.json'});
+}
 
 
 /**
@@ -33,3 +43,5 @@ function saveFile(content, options) {
         console.log('File saved to ' + dest);
     });
 }
+
+main()
