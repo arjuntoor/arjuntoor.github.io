@@ -1,6 +1,7 @@
 
 var objgen = require('objgen/objgen').ObjGen
 var fs = require('fs');
+const readline = require('readline');
 
 
 function main() {
@@ -14,11 +15,25 @@ function main() {
  */
 function buildResume(error, rawFileContents) {  
     if (error) throw error;
-    
-    var json = convertToJson(rawFileContents);
-    saveFile(json, {name:'dist/resume.json'});
+    var intermediate = convertStringArray(rawFileContents);
+    //var json = convertToJson(intermediate);
+    //saveFile(json, {name:'dist/resume.json'});
 }
 
+
+function convertStringArray(contents) {
+    const rl = readline.createInterface({
+        input: fs.createReadStream('src/resume.txt')
+    });
+    
+    rl.on('line', (line) => {
+        if (line.indexOf("#startStringArray") > -1) {
+            console.log(line);
+        }
+    });
+
+    
+}
 
 /**
  * Converts input to json using ObjGen. 
