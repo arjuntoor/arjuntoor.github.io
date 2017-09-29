@@ -1,6 +1,10 @@
 # My Resume
 
-This resume has been created using [JSON Resume](https://jsonresume.org) and [ObjGen](www.objgen.com/json).
+This is a package to make the creation of a modern, web-based resume (CV) much easier.  It is built using [JSON Resume](https://jsonresume.org) and [ObjGen](https://www.npmjs.com/package/objgen).
+
+JSON Resume is an excellent initiative.  The main limitation is that I find it is time consuming end error-prone to write JSON by hand.  Also the end-to-end process  is not quite fully automated.
+
+This package aims to fix that by allowing you to write your resume using the ObjGen format instead.  It then builds the final resume using a single `npm` command, and stores a copy of it locally.
 
 
 
