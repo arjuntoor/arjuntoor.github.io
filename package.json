@@ -14,8 +14,8 @@
 		"url": "git+https://a12jun@bitbucket.org/a12jun/my-resume.git"
 	},
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"resume": "node build/build-resume.js",
+		"convert": "node build/build-resume.js",
+		"parse": "echo \"This is the parsing script\"",
 		"deploy": "echo \"This is the deploy script\""
 	},
 	"dependencies": {
