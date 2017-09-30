@@ -27,7 +27,7 @@ work [0]
   company = British Telecom
   position = Senior Software Engineer
   website = http://bt.com
-  startDate = 2016-05-13
+  startDate = 2016-05-03
   summary = I was recruited into a specialist team working on various software engineering projects on secure government contracts. The main project I was involved in was a cyber security platform consisting of a mashup of Big Data technologies.  Some examples include Hadoop, Kafka, Impala and Spark.  I developed Java and Spark components to integrate third-party threat monitoring products into the data ingest pipeline, such as FireEye, DarkTrace and Cisco FireSIGHT.  I also worked extensively on new enhanced features such as performance and metric data gathering, automation, and interfacing via APIs.
 #startStringArray highlights
     desc = Visiting the offshore customers premesis on multiple occasions to lead the deployment of my teams components. Gained exposure to the critical operations element of the project.
