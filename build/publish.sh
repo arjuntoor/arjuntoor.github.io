@@ -13,6 +13,6 @@ echo "Killing server"
 kill ${PID}
 
 echo "Copying resume to server"
-scp out/resume.html arjuntoor@ssh.pythonanywhere.com:~/sites/templates/me/
+# scp out/resume.html arjuntoor@ssh.pythonanywhere.com:~/sites/templates/me/
 
 echo "Done - visit arjuntoor.co.uk/me/resume to see the changes"
