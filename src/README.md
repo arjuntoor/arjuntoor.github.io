@@ -1,1 +1,0 @@
-This directory should contain a resume.txt file that is in the ObjGen format.

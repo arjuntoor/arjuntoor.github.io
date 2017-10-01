@@ -23,7 +23,7 @@ Edit `src/resume.txt` as required.  See the offical [schema](https://jsonresume.
 
 #### Run conversions
 1. Run `npm run convert`
-This creates your resume in final JSON format.
+This creates your resume in final JSON format in dist/resume.json.
 
 #### Preview / export
 1. Run `npm run preview`  
