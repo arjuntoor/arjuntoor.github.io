@@ -11,20 +11,23 @@ This package aims to fix that by allowing you to write your resume using the Obj
 # Workflow
 
 ## Pre-requisites
-1. Ensure you have NodeJS, git and Python installed 
+1. Ensure you have NodeJS, npm and git installed 
 1. Clone this repo
 1. `cd` into the `my-resume` directory, then enter `npm install` to install dependencies
 
+
 ## Editing and publishing
-1. Edit the raw text resume
-1. Run conversions
-1. Choose how you want to publish the resume
 
 #### Edit the raw text resume
-Edit `src/resume.txt` as required.  The syntax of this file is easier to edit than pure JSON.  See src/README.md for more details.
+Edit `src/resume.txt` as required.  See the offical [schema](https://jsonresume.org/schema/) to see what you can include, and the ObjGen website for syntax of the text file.
 
 #### Run conversions
-1. Run `npm run convert` to generate the resume in JSON Resume format
+1. Run `npm run convert`
+This creates your resume in final JSON format.
 
-#### Choose how you want to publish the resume
-1. `publish.sh` - this will generate the resume then upload it to pythonanywhere
+#### Preview / export
+1. Run `npm run preview`  
+This will open a web browser displaying your resume in HTML.  You can save the page to keep a copy of your resume, however there appear to be some bugs with the JSON Resume cli.  Pictures do not always display properly.  If you need additional themes, download them with [npm](https://www.npmjs.com/search?q=json+resume+theme)
+
+1. Use the [live editor](http://registry.jsonresume.org/)  
+This is a more reliable way to explore all the themes.  Paste the contents of your resume.json into the JSON area then select the theme.  When you're happy, use your browser to 'Save Frame As...', to download a local copy of your resume.
