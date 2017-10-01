@@ -5,7 +5,7 @@ const readline = require('readline');
 
 // Other constants
 const resumeRaw = 'src/resume.txt';
-const resumeOut = 'build/resume.json';
+const resumeJson = 'build/resume.json';
 const resumeEncoding = 'utf8';
 const stringArrayStartTag = '#startStringArray';
 const stringArrayEndTag = '#endStringArray';
@@ -22,10 +22,11 @@ function main() {
  */
 function buildResume(error, rawFileContents) {  
     if (error) throw error;
-    var intermediate = convertStringArrays(rawFileContents);
-    //console.log(intermediate);
-    var json = convertToJson(intermediate);
-    saveFile(json, {name:resumeOut});
+    var content = convertStringArrays(rawFileContents);
+    content = convertToJson(content);
+    content = convertCommaCodes(content);
+
+    saveFile(content, {name:resumeJson});
 }
 
 
@@ -58,6 +59,9 @@ function convertStringArrays(contents) {
     return resultLines.join('\n');
 }
 
+function convertCommaCodes(contents) {
+    return contents.replace(/&#44;/g, ',');
+}
 
 /**
  * Converts the given line into the required format. 

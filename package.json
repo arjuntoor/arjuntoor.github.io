@@ -14,13 +14,15 @@
 		"url": "git+https://a12jun@bitbucket.org/a12jun/my-resume.git"
 	},
 	"scripts": {
-		"parse": "echo \"This is the parsing script\"",
-		"preview": "echo \"This is the preview script\"",
-		"convert": "node build/build-resume.js",
-		"deploy": "echo \"This is the deploy script\""
+		"parse": 
+			"echo \"This is the parsing script\"",
+		"convert": 
+			"node build/build-resume.js",
+		"preview" : 
+			"cd build; resume serve --theme modern"
 	},
 	"dependencies": {
-		"resume-cli": "^0.4.14",
+		"resume-cli": "0.4.19",
 		"objgen": "4.0.3"
 	}
 }
