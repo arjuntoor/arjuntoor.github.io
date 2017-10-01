@@ -5,7 +5,7 @@ const readline = require('readline');
 
 // Other constants
 const resumeRaw = 'src/resume.txt';
-const resumeJson = 'build/resume.json';
+const resumeJson = 'dist/resume.json';
 const resumeEncoding = 'utf8';
 const stringArrayStartTag = '#startStringArray';
 const stringArrayEndTag = '#endStringArray';
