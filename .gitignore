@@ -4,5 +4,3 @@
 .vscode/
 node_modules
 npm-debug.log
-src/resume.txt
-dist/resume.json
