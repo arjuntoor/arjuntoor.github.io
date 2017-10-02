@@ -127,10 +127,10 @@ languages [1]
 
 interests [0]
 	name = Current Professional Interests
-	keywords [] s = FOSS, Big Data, MongoDB, AngularJS, NodeJS, Python,	Pandas, Webapp building
+	keywords [] s = FOSS, Big Data, MongoDB, AngularJS, NodeJS, Python,	Webapp building
 interests [1]
   name = Personal
-	keywords [] s = Health and fitness, Music (playing and performing)
+	keywords [] s = Health and fitness, Cooking, Playing instruments
 
 references [0]
   name = Pratim Das
