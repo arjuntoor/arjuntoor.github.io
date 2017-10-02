@@ -110,13 +110,15 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Full Stack Development",
       "level": "Experienced",
       "keywords": [
         "JavaScript",
         "HTML5",
         "CSS3",
         "NodeJS",
+        "Java",
+        ".NET",
         "AngularJS",
         "Vue.JS",
         "Yeoman",
@@ -130,21 +132,12 @@
         "REST",
         "SOAP",
         "XML",
-        "XSLT"
-      ]
-    },
-    {
-      "name": "Backend Development",
-      "level": "Experienced",
-      "keywords": [
-        "Java",
-        ".NET",
+        "XSLT",
         "WCF",
-        "WPF",
-        "Python",
-        "Siebel"
+        "WPF"
       ]
     },
+    null,
     {
       "name": "Databases",
       "level": "Experienced",
@@ -156,7 +149,7 @@
     },
     {
       "name": "Administration",
-      "level": "Experienced",
+      "level": "Advanced",
       "keywords": [
         "Linux",
         "Bash scripting",
@@ -171,16 +164,17 @@
         "PowerShell",
         "Batch scripting",
         "Registry",
-        "Virtualisation"
+        "Virtualisation",
+        "Siebel"
       ]
     }
   ],
   "awards": [
     {
       "title": "M101P: MongoDB for Developers",
-      "date": "2014-07-01",
+      "date": "2015-07-01",
       "awarder": "MongoDB University",
-      "summary": "I took this course because of my increasing interest in open source software, and I believed MongoDB went hand-in-hand with my personal development projects. I studied online from home and I thoroughly enjoyed learning the technology. A certificate confirming completion is available to view from my homepage."
+      "summary": "I took this course in order to learn a no-SQL database technology, and because it went hand-in-hand with my personal development projects.  A completion certificate is available to view from my homepage."
     }
   ],
   "languages": [
