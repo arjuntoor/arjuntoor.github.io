@@ -100,27 +100,23 @@ education [0]
   courses []
 
 skills [0]
-  name = Web Development
+  name = Full Stack Development
 	level = Experienced
-	keywords[] s = JavaScript, HTML5, CSS3, NodeJS, AngularJS, Vue.JS, Yeoman, Bootstrap, jQuery, ASP.NET, Python, Flask, Bottle, WCF, REST, SOAP, XML, XSLT
-skills [1]
-  name = Backend Development
-	level = Experienced
-	keywords[] s = Java, .NET, WCF, WPF, Python, Siebel
+	keywords[] s = JavaScript, HTML5, CSS3, NodeJS, Java, .NET, AngularJS, Vue.JS, Yeoman, Bootstrap, jQuery, ASP.NET, Python, Flask, Bottle, WCF, REST, SOAP, XML, XSLT, WCF, WPF
 skills [2]
   name = Databases
   level = Experienced
   keywords [] s = MS SQL Server, MongoDB, Oracle
 skills [3]
   name = Administration
-  level = Experienced
-	keywords [] s = Linux, Bash scripting, Automation, Ansible, Puppet, Vagrant, Docker, Package management, Package distribution, Windows, PowerShell, Batch scripting, Registry, Virtualisation
+  level = Advanced
+	keywords [] s = Linux, Bash scripting, Automation, Ansible, Puppet, Vagrant, Docker, Package management, Package distribution, Windows, PowerShell, Batch scripting, Registry, Virtualisation, Siebel
 
 awards [0]
   title = M101P: MongoDB for Developers
-	date = 2014-07-01
+	date = 2015-07-01
 	awarder = MongoDB University
-	summary = I took this course because of my increasing interest in open source software, and I believed MongoDB went hand-in-hand with my personal development projects. I studied online from home and I thoroughly enjoyed learning the technology. A certificate confirming completion is available to view from my homepage.
+	summary = I took this course in order to learn a no-SQL database technology, and because it went hand-in-hand with my personal development projects.  A completion certificate is available to view from my homepage.
 
 languages [0]
   language = English
