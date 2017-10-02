@@ -41,18 +41,22 @@ function convertStringArrays(contents) {
     for (var i=0; i<lines.length; i++) {
         line = lines[i];
         
+        // Process stringArray block by merging into one line, as per ObjGen format
         if (line.indexOf(stringArrayStartTag) > -1) {
             var arrayName = line.split(' ')[1];
             var linesToMerge = [];
-            
+
+            i++;
             while (lines[i].indexOf(stringArrayEndTag) == -1) {
                 linesToMerge.push(normalise(lines[i]));
                 i++;
             }
-            i++; // move past end array tag
+            i++;
+            
             line = `  highlights [] s = ${linesToMerge.join(',')}`;
         }
         
+
         resultLines.push(line);
     }
     
