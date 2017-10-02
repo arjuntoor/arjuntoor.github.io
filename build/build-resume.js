@@ -29,7 +29,10 @@ function buildResume(error, rawFileContents) {
     saveFile(content, {name:resumeJson});
 }
 
-
+/**
+ * Converts any 'stringArray' in the given contents to an ObjGen-compatible format.
+ * @param {*} contents 
+ */
 function convertStringArrays(contents) {  
     var lines = contents.split('\n');
     var resultLines = [];
@@ -40,9 +43,6 @@ function convertStringArrays(contents) {
         
         if (line.indexOf(stringArrayStartTag) > -1) {
             var arrayName = line.split(' ')[1];
-            
-            i++; //advance to first line after start tag
-            
             var linesToMerge = [];
             
             while (lines[i].indexOf(stringArrayEndTag) == -1) {
@@ -59,16 +59,22 @@ function convertStringArrays(contents) {
     return resultLines.join('\n');
 }
 
+/**
+ * Replaces all of the encoded commas back into an actual comma.  
+ * This is done after the ObjGen conversion
+ * @param {*} contents 
+ */
 function convertCommaCodes(contents) {
     return contents.replace(/&#44;/g, ',');
 }
 
 /**
- * Converts the given line into the required format. 
+ * Cleans up the given line.  
+ * This is done before the ObjGen conversion
  * @param {*} line 
  */
 function normalise(line) {
-    return line.replace(/,/g, '&#44;').replace('desc = ', '').trim();
+    return line.replace(/,/g, '&#44;').replace('value = ', '').trim();
 }
 
 
@@ -96,4 +102,4 @@ function saveFile(content, options) {
     });
 }
 
-main()
+main();
