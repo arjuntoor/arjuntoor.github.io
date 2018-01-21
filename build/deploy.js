@@ -47,7 +47,7 @@ function deploy(choice) {
         return e.id == choice;
     });
     fsextra.copySync(path + file['file'], "index.html");
-    console.log('Done. Now push this repo and go to arjuntoor.github.io to see the live CV.');
+    console.log('Done. Now. "git commit && git push", then go to https://<username>.github.io to see the live CV.');
 }
 
 function main() {
