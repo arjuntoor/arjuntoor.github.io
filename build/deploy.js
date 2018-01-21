@@ -46,16 +46,14 @@ function deploy(choice) {
     var file = files.find(function(e) {
         return e.id == choice;
     });
-    console.log(file);
     fsextra.copySync(path + file['file'], "index.html");
-    console.log("Done");
+    console.log('Done. Now push this repo and go to arjuntoor.github.io to see the live CV.');
 }
 
 function main() {
     loadFiles();
-    sleep(2000);
+    sleep(1500);
     askWhichFile();
 }
-
 
 main();
