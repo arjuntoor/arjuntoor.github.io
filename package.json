@@ -14,7 +14,6 @@
     "url": "git+https://a12jun@bitbucket.org/a12jun/my-resume.git"
   },
   "scripts": {
-    "parse": "echo \"This is the parsing script\"",
     "convert": "node build/build-resume.js",
     "preview": "cd build; resume serve --theme modern",
     "deploy": "node build/deploy.js"
