@@ -45,3 +45,7 @@ This will open a web browser displaying your resume in HTML.  You can save the p
 
 1. Use the [live editor](http://registry.jsonresume.org/)  
 This is a more reliable way to explore all the themes.  Paste the contents of your resume.json into the JSON area then select the theme.  When you're happy, use your browser to 'Save Frame As...', to download a local copy of your resume.
+
+#### 4. Deploy
+1. Run `npm deploy`
+This will ask you which version of the resume you want to deploy.
