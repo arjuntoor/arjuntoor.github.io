@@ -2,12 +2,16 @@ var fs = require('fs');
 var fsextra = require('fs-extra');
 var sleep = require('system-sleep');
 var prompt = require('prompt');
+var chalk = require('chalk');
+
+const log = console.log;
 
 var path = "dist/";
 var files = [];
 
 
 function loadFiles() {
+    console.log(chalk.green("Just getting stuff ready..."));
     fs.readdir(path, function(err, items) {
         for (var i=0; i<items.length; i++) {
             files[i] = {'id': i, 'file': items[i]};
@@ -17,27 +21,27 @@ function loadFiles() {
 
 function askWhichFile() {
     var choice = -1;
-
-    console.log("Please pick which file you want to deploy");
+    console.clear();
+    log(chalk.green("Please pick which file you want to deploy"));
 
     for (var i=0; i<files.length; i++) {
-        console.log(`${files[i].id}.  ${files[i].file}`);
+        log(`${files[i].id}.  ${files[i].file}`);
     }
     
     prompt.start();
     prompt.get('choice', function(err, result) {
         if (err) {
-            console.log(err); return;
+            log(err); return;
         }
         
         try {
             choice = parseInt(result.choice);
             if (isNaN(choice) || choice >= files.length || choice < 0) {
-                console.log('Bad choice...');  return; 
+                log(chalk.red('Bad choice...'));  return; 
             }
             deploy(choice);
         } catch (error) {
-            console.log(error);
+            log(error);
         }
     });
 }
@@ -47,10 +51,13 @@ function deploy(choice) {
         return e.id == choice;
     });
     fsextra.copySync(path + file['file'], "index.html");
-    console.log('Done. Now. "git commit && git push", then go to https://<username>.github.io to see the live CV.');
+    log(chalk.green('Done.\nNow, "git commit && git push", then go to https://<username>.github.io to see the live CV.'));
+
+    log('\n\n');
 }
 
 function main() {
+    console.clear();
     loadFiles();
     sleep(1500);
     askWhichFile();
