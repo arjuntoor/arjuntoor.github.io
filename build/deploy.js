@@ -9,8 +9,16 @@ const log = console.log;
 var path = "dist/";
 var files = [];
 
+function clearConsole() {
+    if (console.clear) {
+        console.clear();
+    } else {
+        console.log('\033[2J');
+    }
+}
 
 function loadFiles() {
+    clearConsole();
     console.log(chalk.green("Just getting stuff ready..."));
     fs.readdir(path, function(err, items) {
         for (var i=0; i<items.length; i++) {
@@ -21,7 +29,7 @@ function loadFiles() {
 
 function askWhichFile() {
     var choice = -1;
-    console.clear();
+    clearConsole();
     log(chalk.green("Please pick which file you want to deploy"));
 
     for (var i=0; i<files.length; i++) {
@@ -57,7 +65,6 @@ function deploy(choice) {
 }
 
 function main() {
-    console.clear();
     loadFiles();
     sleep(1500);
     askWhichFile();
