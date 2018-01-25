@@ -102,7 +102,7 @@ education [0]
 skills [0]
   name = Full Stack Development
 	level = Experienced
-	keywords[] s = JavaScript, HTML5, CSS3, NodeJS, Java, .NET, AngularJS, Vue.JS, Yeoman, Bootstrap, jQuery, ASP.NET, Python, Flask, Bottle, WCF, REST, SOAP, XML, XSLT, WCF, WPF
+	keywords[] s = JavaScript, NodeJS, AngularJS, Vue.js, Yeoman, jQuery, HTML5, CSS3, Bootstrap, Java, .NET, ASP.NET, Python, Flask, Bottle, WCF, REST, SOAP, XML, XSLT, WCF, WPF
 skills [2]
   name = Databases
   level = Experienced
@@ -126,8 +126,8 @@ languages [1]
 	fluency = Professional working proficiency
 
 interests [0]
-	name = Current Professional Interests
-	keywords [] s = FOSS, Big Data, MongoDB, AngularJS, NodeJS, Python,	Webapp building
+	name = Professional
+	keywords [] s = FOSS, Big Data, Webapp building
 interests [1]
   name = Personal
 	keywords [] s = Health and fitness, Cooking, Playing instruments

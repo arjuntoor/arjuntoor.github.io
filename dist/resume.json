@@ -114,16 +114,16 @@
       "level": "Experienced",
       "keywords": [
         "JavaScript",
+        "NodeJS",
+        "AngularJS",
+        "Vue.js",
+        "Yeoman",
+        "jQuery",
         "HTML5",
         "CSS3",
-        "NodeJS",
+        "Bootstrap",
         "Java",
         ".NET",
-        "AngularJS",
-        "Vue.JS",
-        "Yeoman",
-        "Bootstrap",
-        "jQuery",
         "ASP.NET",
         "Python",
         "Flask",
@@ -189,14 +189,10 @@
   ],
   "interests": [
     {
-      "name": "Current Professional Interests",
+      "name": "Professional",
       "keywords": [
         "FOSS",
         "Big Data",
-        "MongoDB",
-        "AngularJS",
-        "NodeJS",
-        "Python",
         "Webapp building"
       ]
     },
