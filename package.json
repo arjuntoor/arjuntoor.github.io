@@ -15,7 +15,7 @@
   },
   "scripts": {
     "convert": "node build/build-resume.js",
-    "preview": "cd build; resume serve --theme modern",
+    "preview": "cd dist && resume serve",
     "deploy": "node build/deploy.js"
   },
   "dependencies": {
