@@ -1,823 +1,603 @@
 <html><head></head><body>
-  
-  
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
-  <title>Arjun Toor ⋅ Senior Software Engineer</title>
-  <style>
-    /*===========================================================
-    CSS Reset
-  
-    http://meyerweb.com/eric/tools/css/reset/
-    v2.0 | 20110126
-    License: none (public domain)
-  ============================================================*/
-  
-  html, body, div, span, applet, object, iframe,
-  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-  a, abbr, acronym, address, big, cite, code,
-  del, dfn, em, img, ins, kbd, q, s, samp,
-  small, strike, strong, sub, sup, tt, var,
-  b, u, i, center,
-  dl, dt, dd, ol, ul, li,
-  fieldset, form, label, legend,
-  table, caption, tbody, tfoot, thead, tr, th, td,
-  article, aside, canvas, details, embed,
-  figure, figcaption, footer, header, hgroup,
-  menu, nav, output, ruby, section, summary,
-  time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-  
-    vertical-align: baseline;
-  
-    border: 0;
-  
-    font: inherit;
-    font-size: 100%;
-  }
-  /* HTML5 display-role reset for older browsers */
-  article, aside, details, figcaption, figure,
-  footer, header, hgroup, menu, nav, section {
-    display: block;
-  }
-  body {
-    line-height: 1;
-  }
-  ol, ul {
-    list-style: none;
-  }
-  blockquote, q {
-    quotes: none;
-  }
-  blockquote:before, blockquote:after,
-  q:before, q:after {
-    content: '';
-    content: none;
-  }
-  table {
-    border-spacing: 0;
-  
-    border-collapse: collapse;
-  }
-  
-  /*===========================================================
-    JSON Resume - Theme styles
-  ============================================================*/
-  
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i');
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 40px 0;
-  
-    color: #252525;
-    background: #F6F9FC;
-  
-    font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    line-height: 1.3;
-  }
-  
-  h1 {
-    letter-spacing: 0.2px;
-  
-    font-size: 2rem;
-    font-weight: 600;
-  }
-  
-  h2 {
-    margin-bottom: 1.4rem;
-  
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-  
-    color: rgba(36,36,36,0.80);
-  
-    font-size: 1rem;
-    font-weight: 600;
-  }
-  
-  h3 {
-    margin-bottom: 0.4rem;
-  
-    color: #252525;
-  
-    font-size: 1.2rem;
-    font-weight: 600;
-  }
-  
-  h4 {
-    margin-bottom: 0.4rem;
-  
-    letter-spacing: 0.5px;
-  
-    color: rgba(36,36,36,0.80);
-  
-    font-size: 0.9rem;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  a {
-    text-decoration: none;
-  
-    color: rgba(36,36,36,0.40);
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  p {
-    line-height: 1.8;
-  }
-  
-  em {
-    color: rgba(36,36,36,0.40);
-  
-    font-size: 0.9rem;
-    font-weight: normal;
-  }
-  
-  strong {
-    color: rgba(37,37,37,0.80);
-  
-    font-size: 0.9rem;
-    font-weight: 600;
-  }
-  
-  blockquote {
-    position: relative;
-  
-    padding-top: 0.2rem;
-    padding-left: 1.4rem;
-  }
-  
-  blockquote:before {
-    position: absolute;
-    top: -10px;
-    left: 0;
-  
-    content: '“';
-  
-    color: #D1D5D8;
-  
-    font-family: 'Garamond', 'Baskerville', 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;
-    font-size: 1.6rem;
-    font-weight: 600;
-  }
-  
-  li {
-    padding: 0.4rem 0 0.4rem 1rem;
-  
-    line-height: 1.8;
-  }
-  
-  li:before {
-    display: inline-block;
-  
-    width: 1em;
-    margin-left: -1em;
-  
-    content: '•';
-  
-    color: #D1D5D8;
-  }
-  
-  ul.inline {
-    display: inline-block;
-  
-    list-style-type: none;
-  }
-  
-  ul.inline li {
-    display: inline-block;
-  
-    margin-right: 0.6rem;
-    padding: 0;
-  
-    line-height: 1;
-  }
-  
-  ul.inline em {
-    margin-left: 0.1rem;
-  }
-  
-  ul.inline li:before {
-    content: '';
-    content: none;
-  }
-  
-  ul.comma li {
-    margin: 0;
-  }
-  
-  ul.comma li:not(:last-of-type):after {
-    content: ',';
-  }
-  
-  section {
-    clear: both;
-  
-    padding: 2rem 0;
-  
-    border-bottom: 1px solid #F1F2FB;
-  }
-  
-  #resume {
-    position: relative;
-  
-    max-width: 980px;
-    margin: 0 auto;
-    padding: 0;
-  
-    border-radius: 4px;
-    background: #FFFFFF;
-    box-shadow: 1px 2px 10px 0 rgba(0,0,0,0.05);
-  }
-  
-  .left {
-    position: absolute;
-    left: 0;
-  
-    padding: 0 40px 0 80px;
-    padding-top: 0.1rem;
-  }
-  
-  .left h2 {
-    color: #20476A;
-  
-    font-size: 1rem;
-  }
-  
-  .right {
-    padding: 0 80px 0 250px;
-  }
-  
-  .date, .releaseDate {
-    margin-bottom: 0.6rem;
-  
-    color: rgba(36,36,36,0.40);
-  
-    font-size: 0.9rem;
-  }
-  
-  #basics {
-    border-bottom: 2px solid #F1F2FB;
-  }
-  
-  #basics img.picture {
-    width: 100px;
-    height: 100px;
-  
-    border-radius: 50%;
-  }
-  
-  #location {
-    margin-bottom: 0.4rem;
-  }
-  
-  #basics .contact {
-    color: rgba(36,36,36,0.40);
-  
-    font-size: 0.9rem;
-  }
-  
-  #basics .contact span {
-    display: inline-block;
-  
-    padding-bottom: 0.4rem;
-  }
-  
-  #basics .contact a {
-    margin-right: 1rem;
-  }
-  
-  #profiles li a {
-    color: rgba(36,36,36,0.60);
-  }
-  
-  #profiles .network {
-    margin: 30px 30px 0 0;
-    padding: 0 0 0 40px;
-  
-    background-size: 30px 30px;
-  
-    line-height: 30px;
-  }
-  
-  #work .item,
-  #volunteer .item,
-  #awards .item,
-  #publications .item {
-    margin-bottom: 4rem;
-  }
-  
-  #work .item:last-child,
-  #volunteer .item:last-child,
-  #awards .item:last-child,
-  #publications .item:last-child {
-    margin-bottom: 0;
-  }
-  
-  #work .website,
-  #volunteer .website,
-  #awards .website,
-  #publications .website {
-    margin-bottom: 1.4rem;
-  }
-  
-  #work .summary,
-  #volunteer .summary,
-  #awards .summary,
-  #publications .summary {
-    margin-bottom: 1.2rem;
-  }
-  
-  #skills .name,
-  #interests .name {
-    display: inline-block;
-  
-    width: 150px;
-    margin: 0 1.4rem 1.4rem 0;
-  
-    vertical-align: top;
-    letter-spacing: 0.5px;
-  
-    color: rgba(36,36,36,0.80);
-  
-    font-weight: 600;
-  }
-  
-  #skills .keywords {
-    max-width: 470px;
-  }
-  
-  #education .studyType {
-    margin-bottom: 1.4rem;
-  }
-  
-  #references .name {
-    padding: 1.2rem 1.2rem 0 0;
-  
-    text-align: right;
-  }
-  
-  .copy {
-    margin: 1.4rem auto 4rem auto;
-  
-    text-align: center;
-  
-    color: #C2C6C9;
-  
-    font-size: 0.8rem;
-  }
-  
-  .copy a {
-    text-decoration: underline;
-  
-    color: #C2C6C9;
-  }
-  
-  /*===========================================================
-    Responsiveness
-  ============================================================*/
-  
-  @media (max-width: 980px) {
-    #resume {
-      max-width: none;
-      margin: 1.4rem;
+    
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+    <title>Arjun Toor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <style type="text/css">
+        @import url(
+        https://fonts.googleapis.com/css?family=Lato:400,700
+    );
+    body {
+        background: #fff;
+        font-family: Lato, sans-serif;
+        margin: 0 0 80px;
     }
-  }
-  
-  @media (max-width: 800px) {
-    .left {
-      position: static;
-  
-      padding: 0 40px;
+    a {
+        color: #25a847;
     }
-    .right {
-      padding: 0 40px;
+    a:focus,
+    a:hover {
+        color: #f1c40f;
+        text-decoration: none;
     }
-    .contact {
-      margin-bottom: 1.2rem;
+    p {
+        line-height: 1.5;
+        margin: 0;
     }
-    #basics .left, #basics .right {
-      text-align: center;
+    p + p {
+        margin-top: 10px;
     }
-  }
-  
-  /*===========================================================
-    Social icons
-  ============================================================*/
-  
-  #profiles .network.Twitter {
-    background: url("data:image/svg+xml;utf8,<svg enable-background='new 0 0 550 550' viewBox='0 0 550 550' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><g><circle cx='275' cy='275' fill='#2CBDE2' r='256'></circle><path d='M161.9,181.2c0,0,40.6,45.9,107.8,53.4c0,0-3.2-38.4,30.9-59.8c0,0,35.2-23.5,61.9,10.7     c0,0,25.6-5.3,35.2-11.7c0,0-7.5,14.5-20.3,27l28.8-5.7l-26.7,28.8c0,0,10.7,97.1-95.5,148.3c0,0-82.7,29.9-140.3-9.6     c0,0,70.4-10.7,77.9-26.7c0,0-37.4-4.3-47-36.3l20.3-1.1c0,0-35.2-3.2-39.5-53.4l23.5,3.2C179,248.4,141.6,237.8,161.9,181.2z' fill='#FFFFFF'></path></g></g></svg>") no-repeat left top;
-  }
-  
-  #profiles .network.SoundCloud {
-    background: url("data:image/svg+xml;utf8,<svg style='enable-background:new 0 0 112.196 112.196;' viewBox='0 0 112.196 112.196' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><circle cx='56.098' cy='56.098' r='56.098' style='fill:#FF6A22;'></circle><g><path d='M16.707,68.833c-0.027,0.182-0.157,0.312-0.326,0.312c-0.169,0-0.299-0.13-0.325-0.316    l-0.593-4.438l0.593-4.512c0.025-0.188,0.155-0.318,0.325-0.318c0.168,0,0.298,0.13,0.326,0.318l0.706,4.517L16.707,68.833z     M19.728,71.529c-0.028,0.193-0.168,0.328-0.341,0.328c-0.168,0-0.315-0.135-0.338-0.328l-0.798-7.139l0.798-7.299    c0.024-0.188,0.17-0.328,0.338-0.328c0.173,0,0.313,0.137,0.341,0.328l0.908,7.299L19.728,71.529z M22.988,72.738    c-0.023,0.232-0.197,0.397-0.406,0.397c-0.216,0-0.387-0.165-0.408-0.397l-0.757-8.342l0.757-8.659    c0.019-0.235,0.192-0.403,0.408-0.403c0.209,0,0.382,0.168,0.406,0.403l0.859,8.659L22.988,72.738z M26.28,73.003    c-0.024,0.266-0.232,0.467-0.479,0.467c-0.253,0-0.46-0.201-0.481-0.467l-0.715-8.607l0.715-8.897    c0.021-0.268,0.228-0.469,0.481-0.469c0.247,0,0.455,0.201,0.479,0.469l0.811,8.897L26.28,73.003z M29.59,73.072    c-0.017,0.309-0.258,0.538-0.543,0.538c-0.294,0-0.527-0.229-0.547-0.538l-0.676-8.677l0.676-8.254    c0.021-0.307,0.253-0.536,0.547-0.536c0.29,0,0.526,0.229,0.543,0.532l0.766,8.258L29.59,73.072z M32.932,73.077v-0.005    c-0.02,0.342-0.291,0.612-0.617,0.612c-0.327,0-0.598-0.271-0.617-0.607l-0.631-8.677l0.631-13.429    c0.019-0.342,0.29-0.612,0.617-0.612c0.327,0,0.598,0.271,0.617,0.607l0.715,13.434L32.932,73.077z M36.249,73.072v-0.005    c-0.02,0.378-0.319,0.679-0.689,0.679c-0.363,0-0.663-0.301-0.681-0.679l-0.596-8.621l0.596-16.501    c0.018-0.378,0.318-0.677,0.681-0.677c0.37,0,0.669,0.299,0.689,0.677l0.671,16.501L36.249,73.072z M39.69,72.939v-0.005    c-0.015,0.421-0.346,0.748-0.753,0.748c-0.407,0-0.738-0.327-0.753-0.743l-0.553-8.533c0,0,0.553-17.876,0.553-17.881    c0.016-0.416,0.346-0.749,0.753-0.749c0.407,0,0.739,0.333,0.753,0.749l0.625,17.881L39.69,72.939z M43.111,72.882    c-0.016,0.458-0.375,0.817-0.822,0.817c-0.448,0-0.807-0.359-0.823-0.813l-0.516-8.482l0.516-18.478    c0.016-0.46,0.375-0.818,0.823-0.818c0.447,0,0.807,0.358,0.822,0.818l0.573,18.478L43.111,72.882z M46.554,72.807v-0.005    c-0.016,0.495-0.403,0.888-0.894,0.888c-0.484,0-0.879-0.393-0.888-0.883l-0.474-8.401L44.767,46.4    c0.014-0.502,0.408-0.89,0.893-0.89c0.491,0,0.878,0.388,0.894,0.89l0.532,18.006L46.554,72.807z M50.025,72.757V72.75    c-0.008,0.539-0.434,0.954-0.96,0.954c-0.53,0-0.95-0.415-0.966-0.947l-0.428-8.352L48.1,47.058    c0.016-0.538,0.436-0.959,0.966-0.959c0.526,0,0.952,0.421,0.96,0.959l0.485,17.352L50.025,72.757z M53.566,71.876l-0.043,0.818    c-0.005,0.285-0.125,0.543-0.308,0.729c-0.188,0.183-0.446,0.3-0.719,0.3c-0.318,0-0.598-0.146-0.79-0.376    c-0.142-0.167-0.23-0.383-0.24-0.61c-0.003-0.01-0.003-0.023-0.003-0.037c0,0-0.395-8.286-0.395-8.3l0.39-20.443l0.005-0.196    c0.003-0.358,0.193-0.677,0.477-0.86c0.159-0.106,0.347-0.168,0.557-0.168c0.206,0,0.401,0.064,0.564,0.177    c0.277,0.185,0.458,0.496,0.463,0.852l0.434,20.648L53.566,71.876z M57.007,72.587v-0.01c-0.007,0.604-0.502,1.096-1.1,1.096    c-0.6,0-1.094-0.492-1.1-1.091l-0.227-4.03l-0.223-4.138l0.45-22.406v-0.113c0.001-0.34,0.161-0.644,0.408-0.849    c0.189-0.155,0.432-0.249,0.692-0.249c0.207,0,0.399,0.057,0.563,0.153c0.313,0.196,0.532,0.543,0.542,0.94l0.487,22.523    L57.007,72.587z M86.74,73.695c0,0-27.683,0-27.712,0c-0.598-0.061-1.071-0.537-1.081-1.15V40.821    c0.01-0.584,0.211-0.885,0.963-1.174c1.941-0.752,4.139-1.196,6.398-1.196c9.215,0,16.766,7.069,17.567,16.074    c1.186-0.495,2.496-0.777,3.865-0.777c5.518,0,9.992,4.476,9.992,9.998C96.732,69.267,92.258,73.695,86.74,73.695L86.74,73.695z' style='fill:#F1F2F2;'></path></g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>") no-repeat left top;
-  }
-  
-  #profiles .network.Facebook {
-    background: url("data:image/svg+xml;utf8,<svg enable-background='new 0 0 550 550' viewBox='0 0 550 550' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><g><circle cx='275' cy='275' fill='#3F65A6' r='256'></circle><path d='M236.1,190.8c0,7.4,0,40.4,0,40.4h-29.6v49.4h29.6V416h60.8V280.5h40.8     c0,0,3.8-23.7,5.7-49.6c-5.3,0-46.2,0-46.2,0s0-28.7,0-33.8c0-5,6.6-11.8,13.2-11.8c6.5,0,20.3,0,33.1,0c0-6.7,0-30,0-51.4     c-17.1,0-36.5,0-45,0C234.6,134,236.1,183.4,236.1,190.8z' fill='#FFFFFF' ></path></g></g></svg>") no-repeat left top;
-  }
-  
-  #profiles .network.Skype {
-    background: url("data:image/svg+xml;utf8,<svg enable-background='new 0 0 550 550' viewBox='0 0 550 550' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><g><circle cx='275' cy='275' fill='#2CBDE2' r='256'></circle><g><path d='M380,299c1.6-7.4,2.5-15,2.5-22.8c0-58.7-47.6-106.3-106.3-106.3c-6.2,0-12.3,0.5-18.2,1.5      c-9.5-6-20.7-9.5-32.8-9.5c-34.1,0-61.7,27.6-61.7,61.7c0,11.4,3.1,22,8.5,31.2c-1.4,6.9-2.1,14.1-2.1,21.4      c0,58.7,47.6,106.3,106.3,106.3c6.6,0,13.1-0.6,19.5-1.8c8.7,4.7,18.6,7.3,29.1,7.3c34.1,0,61.7-27.6,61.7-61.6      C386.4,316.5,384.1,307.3,380,299z' fill='#31A5DD'></path><path d='M244.3,206.3L244.3,206.3c-8.9,3.3-15.9,8.1-20.6,14.3c-4.8,6.3-7.2,13.5-7.2,21.5      c0,8.4,2.3,15.6,6.9,21.3c4.5,5.6,10.6,10.1,18.3,13.4c7.5,3.2,16.8,6,27.9,8.3c8.1,1.7,14.7,3.3,19.5,4.8      c4.6,1.4,8.4,3.6,11.3,6.3c2.8,2.6,4.1,5.9,4.1,10.1c0,5.3-2.6,9.7-7.9,13.3c-5.4,3.7-12.6,5.6-21.4,5.6      c-6.4,0-11.6-0.9-15.5-2.8c-3.8-1.8-6.8-4.1-8.9-6.9c-2.2-2.9-4.2-6.5-6.1-10.8c-1.7-4-3.8-7-6.2-9.1c-2.6-2.2-5.7-3.3-9.4-3.3      c-4.5,0-8.2,1.4-11.1,4.1c-2.9,2.8-4.4,6.2-4.4,10c0,6.2,2.3,12.7,6.8,19.2c4.5,6.4,10.4,11.7,17.5,15.5c10,5.3,22.8,8,38.1,8      c12.7,0,23.9-2,33.2-5.8c9.4-3.9,16.7-9.4,21.6-16.4c4.9-7,7.4-15,7.4-23.7c0-7.3-1.4-13.6-4.3-18.7c-2.9-5.1-6.9-9.4-12-12.7      c-5-3.2-11.1-6-18.2-8.3c-7-2.2-14.9-4.3-23.5-6.2c-6.8-1.6-11.8-2.8-14.7-3.6c-2.9-0.8-5.8-1.9-8.6-3.3c-2.7-1.3-4.8-3-6.3-4.8      c-1.4-1.8-2.1-3.8-2.1-6.2c0-4,2.2-7.3,6.6-10.2c4.6-3,10.8-4.5,18.4-4.5c8.2,0,14.2,1.4,17.7,4.1c3.7,2.8,6.9,6.8,9.5,11.8      c2.3,4,4.4,6.7,6.3,8.5c2.1,1.9,5.2,2.9,9.2,2.9c4.3,0,8-1.5,10.9-4.6c2.9-3,4.3-6.5,4.3-10.3c0-4-1.1-8-3.3-12.1      c-2.2-4-5.7-7.9-10.3-11.6c-4.6-3.6-10.6-6.6-17.6-8.7c-7-2.2-15.3-3.3-24.8-3.3C263.6,201.4,253.1,203,244.3,206.3z' fill='#FFFFFF'></path></g></g></g></svg>") no-repeat left top;
-  }
-  
-  #profiles .network.LinkedIn {
-    background: url("data:image/svg+xml;utf8,<svg enable-background='new 0 0 550 550' viewBox='0 0 550 550' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><g><circle cx='275' cy='275' fill='#04689B' r='256'></circle><path d='M219.2,366.5h-38.8V242.2h38.8V366.5z M198.8,226.6h-0.3c-14.1,0-23.2-9.5-23.2-21.6     c0-12.3,9.4-21.6,23.7-21.6c14.3,0,23.1,9.3,23.4,21.5C222.5,217.1,213.4,226.6,198.8,226.6z M374.6,366.5h-44v-64.3     c0-16.8-6.9-28.3-22-28.3c-11.6,0-18,7.7-21,15.2c-1.1,2.7-0.9,6.4-0.9,10.2v67.3H243c0,0,0.6-113.9,0-124.3h43.6v19.5     c2.6-8.5,16.5-20.7,38.8-20.7c27.6,0,49.3,17.9,49.3,56.4V366.5z' fill='#FFFFFF'></path></g></g></svg>") no-repeat left top;
-  }
-  
-  #profiles .network.GitHub {
-    background: url("data:image/svg+xml;utf8,<svg enable-background='new 0 0 550 550' viewBox='0 0 550 550' xml:space='preserve' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><g><g><circle cx='275' cy='275' fill='#BF5B94' r='256'></circle><path d='M484.7,292.1c0.1,0,0.3,0.1,0.4,0.2c0,0,0.1,0,0.1,0.1c0.1,0,0.2,0.1,0.3,0.2c0,0,0.1,0.1,0.1,0.1     c0.1,0.1,0.2,0.1,0.3,0.2c0,0,0.1,0.1,0.1,0.1c0.1,0.1,0.2,0.2,0.4,0.3c0,0,0,0,0.1,0c0.1,0.1,0.3,0.2,0.4,0.4     c0,0,0.1,0.1,0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0,0,0.1,0.1,0.1,0.1c0.1,0.1,0.2,0.2,0.3,0.3c0,0,0.1,0.1,0.1,0.1     c0.1,0.1,0.3,0.3,0.4,0.4v-9.1c-20.6,0-40.6,0-61,0c0.6-9.2,2-18.7,1.6-28.1c-0.8-20.4-8.1-38.6-19.5-55.5     c-2.2-3.3-2.6-8.6-2.3-12.8c1.1-16,4.3-31.9,3.9-47.8c-0.4-17.6-7.4-21.7-24.6-17.7c-2.7,0.6-5.4,1.4-8,2.2     c-12.1,4-23,10.3-32.1,19.6c-4.4,4.5-8.5,5.1-14.6,3.3c-30.9-9.6-62.1-10.1-93.1-0.9c-8.2,2.4-13.2,0.8-19-4.6     c-12.9-12.1-28.3-18.5-45.9-20.8c-9.2-1.2-13.9,3.2-14.4,10.3c-1.1,14.5-2.4,29.5,0.3,43.6c2.5,13.1,0.8,22.8-6.5,33.9     c-13.5,20.4-18,43.4-13.5,67.8c0.4,2,0.2,4.1,0.4,7.8c-8.2-0.5-15.3-1.5-22.4-1.3c-17.4,0.5-34.8,1.2-52.1,2.6     c-1.5,0.1-2.8,0.2-4,0.2v6c25.2-7.8,76.3-6.3,82.4,4c-27.7-2.5-54.7-3.4-80.4,9.3c0.2,1.3,0.5,2.6,0.7,3.9     c11.9-3.1,24-6.5,36.2-9.1c5.3-1.1,11,0,16.4-0.4c17.9-1.5,30.8,2.4,42.2,19.8c10.2,15.6,24.6,25.2,40.8,31.7     c11.9,4.7,24.7,7.8,37.6,10.3c1.6,0.3,3.1,0.6,4.5,0.8C229,389.7,207,395.9,181,394.2c-4.3-0.3-8.1-1.2-11.6-2.7     c-9.3-3.8-16.2-11.2-22.5-19.5c-7.7-10.2-16.9-18-30-19.6c-3.1-0.4-6.2,0.4-7.4,0.5c12.8,18.2,25.2,36.4,38.1,54.2     c1.6,2.2,3.3,4.1,5.2,5.7c8.8,7.7,20.3,9.6,32.2,10.1c9.2,0.3,18.3,0.1,27.4,0.1c0,14.4,0,27.9,0,41.3h20.5     c-0.3-5.9-0.1-11.9,0.3-17.8c0.4-6.4,3.8-12.3,10.7-10.5c3.8,1,8.6,6.7,9.1,10.8c0.7,5.7,0.8,11.5,0.7,17.5h19.9     c-0.1-10.5-0.2-21,0.6-31.4c0.2-3.4,6.9-9.6,9.5-9c4,0.9,9.8,6.1,10.1,9.9c0.8,10,0.7,20,0.6,30.5h20c-0.1-6.7-0.2-12.9,0.6-19.1     c0.5-3.6,6.1-9,9.4-9c3.3,0,8.6,5.2,9.5,9c1.4,6.1,1.7,12.8,0.7,19.1h18.3c1.1-0.4,2.2-0.8,3.3-1.3c-1.5-18.3-1.7-35.6-4.7-52.5     c-3.1-17.9-13.3-32.6-26.6-44.9c14.9-4.7,29.6-8.4,43.7-14c22-8.7,39.1-23.4,50.5-44.6c1.5-2.8,5.2-6,8.1-6.3     c0.6-0.1,1.2-0.1,1.9-0.2c0.3,0,0.5,0,0.8-0.1c0.3,0,0.7-0.1,1-0.1c0.3,0,0.7-0.1,1-0.1c0.3,0,0.5,0,0.8-0.1     c0.4,0,0.8-0.1,1.2-0.1c0.2,0,0.4,0,0.7,0c0.4,0,0.9-0.1,1.3-0.1c0.2,0,0.4,0,0.6,0c0.4,0,0.9-0.1,1.3-0.1c0.2,0,0.3,0,0.5,0     c0.5,0,0.9-0.1,1.4-0.1c0.2,0,0.3,0,0.5,0c0.5,0,1,0,1.4-0.1c0.1,0,0.3,0,0.4,0c0.5,0,1,0,1.5-0.1c0.1,0,0.3,0,0.4,0     c0.5,0,1,0,1.5,0c0.1,0,0.2,0,0.4,0c0.5,0,1,0,1.5,0c0.1,0,0.2,0,0.3,0c0.5,0,1,0,1.5,0c0.1,0,0.2,0,0.3,0c0.5,0,1,0,1.6,0     c0.1,0,0.2,0,0.3,0c0.5,0,1.1,0,1.6,0c0.1,0,0.2,0,0.3,0c0.5,0,1.1,0,1.6,0c0.1,0,0.2,0,0.3,0c0.5,0,1.1,0,1.6,0.1     c0.1,0,0.2,0,0.2,0c0.5,0,1.1,0.1,1.6,0.1c0.1,0,0.2,0,0.2,0c0.6,0,1.1,0.1,1.7,0.1c0.1,0,0.1,0,0.2,0c0.6,0,1.1,0.1,1.7,0.1     c0.1,0,0.1,0,0.2,0c0.6,0,1.1,0.1,1.7,0.2c0.1,0,0.1,0,0.2,0c0.6,0.1,1.1,0.1,1.7,0.2c0.1,0,0.1,0,0.2,0c0.6,0.1,1.1,0.1,1.7,0.2     c0.1,0,0.1,0,0.2,0c0.6,0.1,1.2,0.2,1.7,0.2c0,0,0.1,0,0.1,0c0.6,0.1,1.2,0.2,1.8,0.3c0,0,0.1,0,0.1,0c0.6,0.1,1.2,0.2,1.8,0.3     c0,0,0.1,0,0.1,0c0.6,0.1,1.2,0.2,1.8,0.3c0,0,0.1,0,0.1,0c0.6,0.1,1.2,0.2,1.8,0.4c0,0,0.1,0,0.1,0c0.6,0.1,1.2,0.3,1.8,0.4     c0,0,0.1,0,0.1,0c0.6,0.1,1.2,0.3,1.9,0.5c0,0,0,0,0.1,0c0.6,0.2,1.2,0.3,1.9,0.5c0,0,0,0,0,0c0.6,0.2,1.3,0.4,1.9,0.5     c0,0,0,0,0,0c0.6,0.2,1.3,0.4,1.9,0.6c0.4-2.4,0.8-4.9,1.2-7.3c-0.2,0-0.4,0-0.6,0c-21-1.1-39.7-2.1-57.5-3.1     c-1.1-0.1-2.3-0.1-3.4-0.2C432,288.9,468.4,286.8,484.7,292.1z' fill='#FFFFFF'></path></g></g></svg>") no-repeat left top;
-  }
-  
-    </style>
-  
-  
-  <div id="resume">
-  <section id="basics">
-  <div class="left">
-  <img class="picture" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAYrAAAAJGM5NWE4MmM5LTA2YmUtNGY2NS04NWYyLWUxYjhkYzU3ZTc5Nw.jpg" alt="Arjun Toor avatar">
-  </div>
-  <div class="right">
-  <h1>Arjun Toor</h1>
-  <h2>Senior Software Engineer</h2>
-  <div class="contact">
-  <ul class="inline comma" id="location">
-  <li class="city">Swindon</li>
-  <li class="countryCode">UK</li>
-  </ul>
-  </div>
-  <div class="contact">
-  <span class="website">
-  <strong>Website: </strong>
-  <a href="http://arjuntoor.co.uk" target="_blank">http://arjuntoor.co.uk</a>
-  </span>
-  <span class="email">
-  <strong>Email: </strong>
-  <a href="/cdn-cgi/l/email-protection#31501f455e5e4371595e455c50585d1f525e1f445a" target="_blank"><span class="__cf_email__" data-cfemail="51307f253e3e2311393e253c30383d7f323e7f243a">[email&nbsp;protected]</span></a>
-  </span>
-  </div>
-  <ul class="inline" id="profiles">
-  <li class="network github">
-  <a href="http://github.com/a12jun" target="_blank">a12jun</a>
-  </li>
-  <li class="network linkedin">
-  <a href="https://uk.linkedin.com/in/atoor" target="_blank">atoor</a>
-  </li>
-  <li class="network stackoverflow">
-  <a href="http://stackoverflow.com/users/737641/arjun" target="_blank">Arjun</a>
-  </li>
-  </ul>
-  </div>
-  </section>
-  <section id="summary">
-  <div class="left">
-  <h2>Summary</h2>
-  </div>
-  <div class="right">
-  <p>As a determined and talented professional, I am looking for interesting new opportunities within the software and web application development industry. My proven record has enabled me to work on a wide range of successful projects, for a number of firms ranging from startup to global giants. My skillset and experience are both constantly growing, and I wish to utilise this in an environment that focuses on delivering high quality software whilst learning from teams of experts in the trade.</p>
-  </div>
-  </section>
-  <section id="work">
-  <div class="left">
-  <h2>Work</h2>
-  </div>
-  <div class="right">
-  <div class="item">
-  <div class="date">
-  <span class="startDate">
-  2016-05-03
-   </span>
-  <span class="endDate">
-  - Present
-  </span>
-  </div>
-  <h3 class="name">
-  British Telecom
-  </h3>
-  <h4 class="position">
-  Senior Software Engineer
-  </h4>
-  <div class="website">
-  <a href="http://bt.com">http://bt.com</a>
-  </div>
-  <div class="summary">
-  <p>I was recruited into a specialist team working on various software engineering projects on secure government contracts. The main project I was involved in was a cyber security platform consisting of a mashup of Big Data technologies. Some examples include Hadoop, Kafka, Impala and Spark. I developed Java and Spark components to integrate third-party threat monitoring products into the data ingest pipeline, such as FireEye, DarkTrace and Cisco FireSIGHT. I also worked extensively on new enhanced features such as performance and metric data gathering, automation, and interfacing via APIs.</p>
-  </div>
-  <ul class="highlights">
-  <li>Visiting the offshore customers premesis on multiple occasions to lead the deployment of my teams components. Gained exposure to the critical operations element of the project.</li>
-  <li>Extensive experience of leading a team of developers of varying expertise, delivering against project deadlines. This involved mentoring team members, teaching good practice and sharing knowledge on software development principles, e.g. TDD and design patterns.</li>
-  <li>Managing sprint planning sessions and advocating regular scrum meetings.</li>
-  </ul>
-  </div>
-  <div class="item">
-  <div class="date">
-  <span class="startDate">
-  2012-04-17
-  </span>
-  <span class="endDate">
-  - 2016-04-30
-  </span>
-  </div>
-  <h3 class="name">
-  British Telecom
-  </h3>
-  <h4 class="position">
-  Systems Developer
-  </h4>
-  <div class="website">
-  <a href="http://bt.com">http://bt.com</a>
-  </div>
-  <div class="summary">
-  <p>The BT DFTS project is a large scale contract providing communications technology to the Ministry of Defence. I develop and support the Siebel Call Center and related systems which handle ordering, fault reporting, and more. My focus lies in the design and development of new functionality, both internal and integrated, with emphasis on automation. My success in the role has been recognised well and has resulted in greater responsibility in the team.</p>
-  </div>
-  <ul class="highlights">
-  <li>Developed a .NET Web Service to integrate Excel spreadsheets with the Siebel system, to create and process orders. Involved integrating a number of technical components e.g. SOAP, Oracle, OLEDB, and .NET drivers.</li>
-  <li>Helped carry out the large scale upgrades of our production Siebel instances from Siebel 7 to 8. Required significant planning and technical involvement at all levels</li>
-  <li>Implementation of a generic ASP.NET SOAP interface service to run processes on demand. Has repeatedly been used by other developers to interface into our systems.</li>
-  <li>Solely responsible for end-to-end implementation of a WCF .NET middleware service to allow two systems from different vendors to communicate and synchronise data. Required collaboration between multiple stakeholders and areas of the business.</li>
-  <li>Maintaining a custom .NET class library containing many useful generic components, e.g. command line parsing and utility classes. Has been widely re-used.</li>
-  <li>Developed many other .NET applications covering, for example, data feeds, fuzzy text matching, and data transformations.</li>
-  </ul>
-  </div>
-  <div class="item">
-  <div class="date">
-  <span class="startDate">
-  2011-03-01
-  </span>
-  <span class="endDate">
-  - 2012-04-01
-  </span>
-  </div>
-  <h3 class="name">
-  Wiltshire Police
-  </h3>
-  <h4 class="position">
-  IST Development Officer
-  </h4>
-  <div class="website">
-  <a href="http://www.wiltshire.police.uk/">http://www.wiltshire.police.uk/</a>
-  </div>
-  <div class="summary">
-  <p>I was responsible for the design and development of internal web applications and developing solutions for a variety of important real-world problems. In a short space of time I tackled many challenging projects, whilst learning the operational aspects of working for a Police force. This was a fast paced, multi-functional role with focus on time-scales and reliability of solutions, on which I was able to deliver successfully.</p>
-  </div>
-  <ul class="highlights">
-  <li>Developed an 'all in one' ASP.NET web application used by the senior task force for daily meetings to manage high-priority cases. Consisted of a dynamic front end using ASP.NET AJAX, several layers of data extraction using TSQL and SSIS, and integration with the NicheRMS API. The site has since been shared with neighboring police forces.</li>
-  <li>Developed an interactive organisational chart web app using ASP.NET, Javascript and gRaphael, and SQL Server / MySQL for the back end data extracts.</li>
-  <li>Was heavily involved in a contract project to develop a new set of systems around reporting and statistics. Had exposure to an array of new technologies, including Microsoft Business Intelligence stack and dimensional data modeling. In the process I gained a good understanding of the agile management style.</li>
-  <li>Strived to implement better development practices and coding techniques amongst the team, making a great impact</li>
-  </ul>
-  </div>
-  <div class="item">
-  <div class="date">
-  <span class="startDate">
-  2010-07-01
-  </span>
-  <span class="endDate">
-  - 2011-02-01
-  </span>
-  </div>
-  <h3 class="name">
-  Digital Trading Creative
-  </h3>
-  <h4 class="position">
-  Web Developer
-  </h4>
-  <div class="summary">
-  <p>I was responsible for developing customised DotNetNuke websites and modules, working for an entrepreneurial website development and client consulting company. All projects involved working with graphics designers, business managers and clients.</p>
-  </div>
-  <ul class="highlights">
-  <li>Created several DotNetNuke websites with custom shopping cart systems and integration with the PayPal IPN system.</li>
-  <li>Consistently met challenging deadlines for all projects, showing my ability to prioritise and multi-task conflicting projects effectively.</li>
-  <li>Post-employment, I provided technical consultancy carrying out further development work for the company</li>
-  </ul>
-  </div>
-  <div class="item">
-  <div class="date">
-  <span class="startDate">
-  2008-06-01
-  </span>
-  <span class="endDate">
-  - 2009-09-01
-  </span>
-  </div>
-  <h3 class="name">
-  IFPI London, Madrid, Hamburg and São Paulo
-  </h3>
-  <h4 class="position">
-  Junior Systems Developer (Industrial Placement year)
-  </h4>
-  <div class="website">
-  <a href="http://ifpi.org">http://ifpi.org</a>
-  </div>
-  <div class="summary">
-  <p>I was responsible for the development and management of automated online data harvesting, whose data was used in legal pursuits of Digital Music Copyright violation. The role entailed full solution design and implementation. I would regularly provide training and coaching to partners across the globe; thus I played a key role in coordinating the global effort to reduce internet music piracy.</p>
-  </div>
-  <ul class="highlights">
-  <li>Development of several hundred bots to perform web data extraction, using a Java-based system (now Kofax). As the first in the industry to use the software for this purpose, I developed many of the techniques which are still used today.</li>
-  <li>Development of an internal JSP website to manage all aspects of the extraction layer, including an Oracle-based API for global partners to interface with our system.</li>
-  <li>Upon recommendation from my senior managers, I provided seminars and training in person for small to large groups in Spain, Germany and Brazil, with exceptional results.</li>
-  </ul>
-  </div>
-  </div>
-  </section>
-  <section id="education">
-  <div class="left">
-  <h2>Education</h2>
-  </div>
-  <div class="right">
-  <div class="item">
-  <div class="date">
-  <span class="startDate">
-  2006-09-01
-  </span>
-  <span class="endDate">
-  - 2010-06-01
-  </span>
-  </div>
-  <h3 class="institution">
-  University of Birmingham, UK
-  </h3>
-  <h4 class="area">
-  Computer Science
-  </h4>
-  <div class="studyType">
-  BSc (Hons) - 2:1
-  </div>
-  </div>
-  </div>
-  </section>
-  <section id="awards">
-  <div class="left">
-  <h2>Awards</h2>
-  </div>
-  <div class="right">
-  <div class="item">
-  <div class="date">
-  2015-07-01
-  </div>
-  <h3 class="title">
-  M101P: MongoDB for Developers
-  </h3>
-  <h4 class="awarder">
-  MongoDB University
-  </h4>
-  <div class="summary">
-  <p>I took this course in order to learn a no-SQL database technology, and because it went hand-in-hand with my personal development projects. A completion certificate is available to view from my homepage.</p>
-  </div>
-  </div>
-  </div>
-  </section>
-  <section id="skills">
-  <div class="left">
-  <h2>Skills</h2>
-  </div>
-  <div class="right">
-  <div class="item">
-  <span class="name">
-  Full Stack Development
-  <em class="level">Experienced</em>
-  </span>
-  <ul class="keywords inline comma">
-  <li>JavaScript</li>
-  <li>HTML5</li>
-  <li>CSS3</li>
-  <li>NodeJS</li>
-  <li>Java</li>
-  <li>.NET</li>
-  <li>AngularJS</li>
-  <li>Vue.JS</li>
-  <li>Yeoman</li>
-  <li>Bootstrap</li>
-  <li>jQuery</li>
-  <li>ASP.NET</li>
-  <li>Python</li>
-  <li>Flask</li>
-  <li>Bottle</li>
-  <li>WCF</li>
-  <li>REST</li>
-  <li>SOAP</li>
-  <li>XML</li>
-  <li>XSLT</li>
-  <li>WCF</li>
-  <li>WPF</li>
-  </ul>
-  </div>
-  <div class="item">
-  </div>
-  <div class="item">
-  <span class="name">
-  Databases
-  <em class="level">Experienced</em>
-  </span>
-  <ul class="keywords inline comma">
-  <li>MS SQL Server</li>
-  <li>MongoDB</li>
-  <li>Oracle</li>
-  </ul>
-  </div>
-  <div class="item">
-  <span class="name">
-  Administration
-  <em class="level">Advanced</em>
-  </span>
-  <ul class="keywords inline comma">
-  <li>Linux</li>
-  <li>Bash scripting</li>
-  <li>Automation</li>
-  <li>Ansible</li>
-  <li>Puppet</li>
-  <li>Vagrant</li>
-  <li>Docker</li>
-  <li>Package management</li>
-  <li>Package distribution</li>
-  <li>Windows</li>
-  <li>PowerShell</li>
-  <li>Batch scripting</li>
-  <li>Registry</li>
-  <li>Virtualisation</li>
-  <li>Siebel</li>
-  </ul>
-  </div>
-  </div>
-  </section>
-  <section id="languages">
-  <div class="left">
-  <h2>Languages</h2>
-  </div>
-  <div class="right">
-  <ul class="language inline">
-  <li>
-  English
-  <em>Native speaker</em>
-  </li><li>
-  </li><li>
-  Punjabi
-  <em>Professional working proficiency</em>
-  </li><li>
-  </li></ul>
-  </div>
-  </section>
-  <section id="interests">
-  <div class="left">
-  <h2>Interests</h2>
-  </div>
-  <div class="right">
-  <div class="item">
-  <span class="name">
-  Current Professional Interests
-  </span>
-  <ul class="keywords inline comma">
-  <li>FOSS</li>
-  <li>Big Data</li>
-  <li>MongoDB</li>
-  <li>AngularJS</li>
-  <li>NodeJS</li>
-  <li>Python</li>
-  <li>Webapp building</li>
-  </ul>
-  </div>
-  <div class="item">
-  <span class="name">
-  Personal
-  </span>
-  <ul class="keywords inline comma">
-  <li>Health and fitness</li>
-  <li>Cooking</li>
-  <li>Playing instruments</li>
-  </ul>
-  </div>
-  </div>
-  </section>
-  <section id="references">
-  <div class="left">
-  <h2>References</h2>
-  </div>
-  <div class="right">
-  <div class="item">
-  <blockquote class="reference">
-  I have known Arjun for a long time now, both professionally and personally. Arjun was one of the best grad developers I have worked with - he was knowledgeable, enthusiastic and a pleasure to work with. During his time at IFPI he was keen to learn new technologies and was able to deliver on some solid solutions which are still in use. Arjun also has a thorough understanding of fundamentals of computer science and was also very creative in his programming. I look forward to working again with Arjun in the near future.
-  </blockquote>
-  <h4 class="name">
-  Pratim Das
-  </h4>
-  </div>
-  </div>
-  </section>
-  </div>
-  <div class="copy">
-  Powered by <a href="https://jsonresume.org" target="_blank">JSON Resume</a> ⋅
-  Theme by <a href="https://github.com/assimovt">Tair Assimov</a>
-  </div>
-  <script>!function(e,t,r,n,c,a,l){function i(t,r){return r=e.createElement('div'),r.innerHTML='<a href="'+t.replace(/"/g,'&quot;')+'"></a>',r.childNodes[0].getAttribute('href')}function o(e,t,r,n){for(r='',n='0x'+e.substr(t,2)|0,t+=2;t<e.length;t+=2)r+=String.fromCharCode('0x'+e.substr(t,2)^n);return i(r)}try{for(c=e.getElementsByTagName('a'),l='/cdn-cgi/l/email-protection#',n=0;n<c.length;n++)try{(t=(a=c[n]).href.indexOf(l))>-1&&(a.href='mailto:'+o(a.href,t+l.length))}catch(e){}for(c=e.querySelectorAll('.__cf_email__'),n=0;n<c.length;n++)try{(a=c[n]).parentNode.replaceChild(e.createTextNode(o(a.getAttribute('data-cfemail'),0)),a)}catch(e){}}catch(e){}}(document);</script>
-  
-  </body></html>
+    h1,
+    h2,
+    h3,
+    h4 {
+        margin-top: 0
+    }
+    section {
+        margin-top: 30px;
+    }
+    li {
+        line-height: 1.8;
+        list-style: none;
+    }
+    li:before {
+        content: "\f052";
+        float: left;
+        font: 13px Octicons;
+        margin-top: 6px;
+        margin-left: -20px;
+        opacity: .1;
+        position: absolute;
+    }
+    blockquote {
+        border-left: 5px solid #e7e9ec;
+        font-size: 14px;
+    }
+    em {
+        color: #95a5a6;
+        font-weight: normal;
+        font-style: normal;
+    }
+    h4 span:first-child {
+        color: #000;
+        font-weight: bold;
+    }
+    .container {
+        max-width: 750px;
+        padding: 0 30px;
+    }
+    .col-sm-6 {
+        margin-bottom: 10px;
+    }
+    .col-sm-12 h4 {
+        margin-top: 12px; 
+    }
+    .col-sm-12 + .col-sm-12 {
+        margin-top: 30px;
+    }
+    #header {
+        background: #f4f6f6;
+        padding: 50px 0;
+        margin-bottom: 30px;
+    }
+    #header h2 {
+        color: #95a5a6;
+        font-size: 24px;
+    }
+    #content h3 {
+        color: #25a847;
+        font-size: 26px;
+        margin-top: -4px;
+    }
+    #content aside {
+        text-align: right;
+        padding-right: 30px;
+    }
+    #profiles .network {
+        text-transform: capitalize;
+    }
+    #work .position,
+    #volunteer .position {
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+    #education .area {
+        font-weight: bold;
+    }
+    #education .area:before {
+        content: "\f0d7";
+        font: 16px Octicons;
+        margin-right: 6px;
+    }
+    #education .studyType {
+        margin-left: 25px;
+    }
+    #awards .summary,
+    #publications .summary {
+        margin-top: 8px;
+    }
+    #publications .website a:before {
+        content: attr(href);
+    }
+    
+    @media (min-width: 480px) {
+        .strike-through {
+            border-top: 1px solid #f4f6f6;
+            height: 20px;
+            margin-top: 12px;
+            margin-bottom: -2px;
+            position: relative;
+        }
+        .strike-through span,
+        .strike-through a {
+            background: #fff;
+            position: absolute;
+        }
+        .strike-through span:first-child {
+            padding-right: 20px;
+            margin-top: -12px;
+        }
+        .strike-through span + span {
+            font-size: 14px;
+            margin-top: -10px;
+            padding-left: 20px;
+            right: 0;
+        }
+    }
+    @media (max-width: 768px) {
+        .col-sm-6:last-child {
+            margin-bottom: 0px;
+        }
+        #content aside {
+            margin-bottom: 20px;
+            padding-right: 0;
+            text-align: left;
+        }
+        #publications .website a:before {
+            content: "View publication";
+        }
+    }
+    @media (max-width: 480px) {
+        h1 {
+            font-size: 26px;
+        }
+        .date {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        .strike-through span:first-child {
+            margin-bottom: 7px;
+        }
+        .strike-through span {
+            display: block;
+        }	
+        #header {
+            margin-bottom: 10px;
+            padding: 40px 0;
+        }
+        #actions {
+            display: none;
+        }
+    }
+    
+        </style>
+    
+    
+    <header id="header">
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-9 col-sm-push-3">
+    <h1>
+    Arjun Toor
+    </h1>
+    <h2>
+    Senior Software Engineer
+    </h2>
+    </div>
+    </div>
+    </div>
+    </header>
+    <div id="content" class="container">
+    <section id="contact" class="row">
+    <aside class="col-sm-3">
+    <h3>Contact</h3>
+    </aside>
+    <div class="col-sm-9">
+    <div class="row">
+    <div class="col-sm-6">
+    <strong>Email</strong>
+    <div class="email"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d0b1fea4bfbfa290b8bfa4bdb1b9bcfeb3bffea5bb">[email&nbsp;protected]</a></div>
+    </div>
+    <div class="col-sm-6">
+    <strong>Phone</strong>
+    <div class="phone"></div>
+    </div>
+    <div class="col-sm-6">
+    <strong>Website</strong>
+    <div class="website">
+    <a href="http://arjuntoor.co.uk">http://arjuntoor.co.uk</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section id="about" class="row">
+    <aside class="col-sm-3">
+    <h3>About</h3>
+    </aside>
+    <div class="col-sm-9">
+    <p>As a determined and talented professional, I am looking for interesting new opportunities within the software and web application development industry. My proven record has enabled me to work on a wide range of successful projects, for a number of firms ranging from startup to global giants. My skillset and experience are both constantly growing, and I wish to utilise this in an environment that focuses on delivering high quality software whilst learning from teams of experts in the trade.</p>
+    </div>
+    </section>
+    <section id="profiles" class="row">
+    <aside class="col-sm-3">
+    <h3>Profiles</h3>
+    </aside>
+    <div class="col-sm-9">
+    <div class="row">
+    <div class="col-sm-6">
+    <strong class="network">
+    github
+    </strong>
+    <div class="username">
+    <div class="url">
+    <a href="http://github.com/a12jun">a12jun</a>
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-6">
+    <strong class="network">
+    linkedin
+    </strong>
+    <div class="username">
+    <div class="url">
+    <a href="https://uk.linkedin.com/in/atoor">atoor</a>
+    </div>
+    </div>
+    </div>
+    <div class="col-sm-6">
+    <strong class="network">
+    stackoverflow
+    </strong>
+    <div class="username">
+    <div class="url">
+    <a href="http://stackoverflow.com/users/737641/arjun">Arjun</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section id="work" class="row">
+    <aside class="col-sm-3">
+    <h3>Work</h3>
+    </aside>
+    <div class="col-sm-9">
+    <div class="row">
+    <div class="col-sm-12">
+    <h4 class="strike-through">
+    <span>British Telecom</span>
+    <span class="date">
+    2016-05-03 —
+    </span>
+    </h4>
+    <div class="website pull-right">
+    <a href="http://bt.com">http://bt.com</a>
+    </div>
+    <div class="position">
+    Senior Software Engineer
+    </div>
+    <div class="summary">
+    <p>I was recruited into a specialist team working on various software engineering projects on secure government contracts. The main project I was involved in was a cyber security platform consisting of a mashup of Big Data technologies. Some examples include Hadoop, Kafka, Impala and Spark. I developed Java and Spark components to integrate third-party threat monitoring products into the data ingest pipeline, such as FireEye, DarkTrace and Cisco FireSIGHT. I also worked extensively on new enhanced features such as performance and metric data gathering, automation, and interfacing via APIs.</p>
+    </div>
+    <h4>Highlights</h4>
+    <ul class="highlights">
+    <li class="bullet">Visiting the offshore customers premesis on multiple occasions to lead the deployment of my teams components. Gained exposure to the critical operations element of the project.</li>
+    <li class="bullet">Extensive experience of leading a team of developers of varying expertise, delivering against project deadlines. This involved mentoring team members, teaching good practice and sharing knowledge on software development principles, e.g. TDD and design patterns.</li>
+    <li class="bullet">Managing sprint planning sessions and advocating regular scrum meetings.</li>
+    </ul>
+    </div>
+    <div class="col-sm-12">
+    <h4 class="strike-through">
+    <span>British Telecom</span>
+    <span class="date">
+    2012-04-17 — 2016-04-30
+    </span>
+    </h4>
+    <div class="website pull-right">
+    <a href="http://bt.com">http://bt.com</a>
+    </div>
+    <div class="position">
+    Systems Developer
+    </div>
+    <div class="summary">
+    <p>The BT DFTS project is a large scale contract providing communications technology to the Ministry of Defence. I develop and support the Siebel Call Center and related systems which handle ordering, fault reporting, and more. My focus lies in the design and development of new functionality, both internal and integrated, with emphasis on automation. My success in the role has been recognised well and has resulted in greater responsibility in the team.</p>
+    </div>
+    <h4>Highlights</h4>
+    <ul class="highlights">
+    <li class="bullet">Developed a .NET Web Service to integrate Excel spreadsheets with the Siebel system, to create and process orders. Involved integrating a number of technical components e.g. SOAP, Oracle, OLEDB, and .NET drivers.</li>
+    <li class="bullet">Helped carry out the large scale upgrades of our production Siebel instances from Siebel 7 to 8. Required significant planning and technical involvement at all levels</li>
+    <li class="bullet">Implementation of a generic ASP.NET SOAP interface service to run processes on demand. Has repeatedly been used by other developers to interface into our systems.</li>
+    <li class="bullet">Solely responsible for end-to-end implementation of a WCF .NET middleware service to allow two systems from different vendors to communicate and synchronise data. Required collaboration between multiple stakeholders and areas of the business.</li>
+    <li class="bullet">Maintaining a custom .NET class library containing many useful generic components, e.g. command line parsing and utility classes. Has been widely re-used.</li>
+    <li class="bullet">Developed many other .NET applications covering, for example, data feeds, fuzzy text matching, and data transformations.</li>
+    </ul>
+    </div>
+    <div class="col-sm-12">
+    <h4 class="strike-through">
+    <span>Wiltshire Police</span>
+    <span class="date">
+    2011-03-01 — 2012-04-01
+    </span>
+    </h4>
+    <div class="website pull-right">
+    <a href="http://www.wiltshire.police.uk/">http://www.wiltshire.police.uk/</a>
+    </div>
+    <div class="position">
+    IST Development Officer
+    </div>
+    <div class="summary">
+    <p>I was responsible for the design and development of internal web applications and developing solutions for a variety of important real-world problems. In a short space of time I tackled many challenging projects, whilst learning the operational aspects of working for a Police force. This was a fast paced, multi-functional role with focus on time-scales and reliability of solutions, on which I was able to deliver successfully.</p>
+    </div>
+    <h4>Highlights</h4>
+    <ul class="highlights">
+    <li class="bullet">Developed an 'all in one' ASP.NET web application used by the senior task force for daily meetings to manage high-priority cases. Consisted of a dynamic front end using ASP.NET AJAX, several layers of data extraction using TSQL and SSIS, and integration with the NicheRMS API. The site has since been shared with neighboring police forces.</li>
+    <li class="bullet">Developed an interactive organisational chart web app using ASP.NET, Javascript and gRaphael, and SQL Server / MySQL for the back end data extracts.</li>
+    <li class="bullet">Was heavily involved in a contract project to develop a new set of systems around reporting and statistics. Had exposure to an array of new technologies, including Microsoft Business Intelligence stack and dimensional data modeling. In the process I gained a good understanding of the agile management style.</li>
+    <li class="bullet">Strived to implement better development practices and coding techniques amongst the team, making a great impact</li>
+    </ul>
+    </div>
+    <div class="col-sm-12">
+    <h4 class="strike-through">
+    <span>Digital Trading Creative</span>
+    <span class="date">
+    2010-07-01 — 2011-02-01
+    </span>
+    </h4>
+    <div class="website pull-right">
+    <a href=""></a>
+    </div>
+    <div class="position">
+    Web Developer
+    </div>
+    <div class="summary">
+    <p>I was responsible for developing customised DotNetNuke websites and modules, working for an entrepreneurial website development and client consulting company. All projects involved working with graphics designers, business managers and clients.</p>
+    </div>
+    <h4>Highlights</h4>
+    <ul class="highlights">
+    <li class="bullet">Created several DotNetNuke websites with custom shopping cart systems and integration with the PayPal IPN system.</li>
+    <li class="bullet">Consistently met challenging deadlines for all projects, showing my ability to prioritise and multi-task conflicting projects effectively.</li>
+    <li class="bullet">Post-employment, I provided technical consultancy carrying out further development work for the company</li>
+    </ul>
+    </div>
+    <div class="col-sm-12">
+    <h4 class="strike-through">
+    <span>IFPI London, Madrid, Hamburg and São Paulo</span>
+    <span class="date">
+    2008-06-01 — 2009-09-01
+    </span>
+    </h4>
+    <div class="website pull-right">
+    <a href="http://ifpi.org">http://ifpi.org</a>
+    </div>
+    <div class="position">
+    Junior Systems Developer (Industrial Placement year)
+    </div>
+    <div class="summary">
+    <p>I was responsible for the development and management of automated online data harvesting, whose data was used in legal pursuits of Digital Music Copyright violation. The role entailed full solution design and implementation. I would regularly provide training and coaching to partners across the globe; thus I played a key role in coordinating the global effort to reduce internet music piracy.</p>
+    </div>
+    <h4>Highlights</h4>
+    <ul class="highlights">
+    <li class="bullet">Development of several hundred bots to perform web data extraction, using a Java-based system (now Kofax). As the first in the industry to use the software for this purpose, I developed many of the techniques which are still used today.</li>
+    <li class="bullet">Development of an internal JSP website to manage all aspects of the extraction layer, including an Oracle-based API for global partners to interface with our system.</li>
+    <li class="bullet">Upon recommendation from my senior managers, I provided seminars and training in person for small to large groups in Spain, Germany and Brazil, with exceptional results.</li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section id="education" class="row">
+    <aside class="col-sm-3">
+    <h3>Education</h3>
+    </aside>
+    <div class="col-sm-9">
+    <div class="row">
+    <div class="col-sm-12">
+    <h4 class="strike-through">
+    <span>University of Birmingham, UK</span>
+    <span class="date">
+    2006-09-01 — 2010-06-01
+    </span>
+    </h4>
+    <div class="area">
+    Computer Science
+    </div>
+    <div class="studyType">
+    BSc (Hons) - 2:1
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section id="awards" class="row">
+    <aside class="col-sm-3">
+    <h3>Awards</h3>
+    </aside>
+    <div class="col-sm-9">
+    <div class="row">
+    <div class="col-sm-12">
+    <h4 class="strike-through">
+    <span>M101P: MongoDB for Developers</span>
+    </h4>
+    <div class="date pull-right">
+    <em>Awarded</em>
+    2015-07-01
+    </div>
+    <div class="awarder">
+    <em>by</em>
+    <strong>MongoDB University</strong>
+    </div>
+    <div class="summary">
+    I took this course in order to learn a no-SQL database technology, and because it went hand-in-hand with my personal development projects. A completion certificate is available to view from my homepage.
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section id="skills" class="row">
+    <aside class="col-sm-3">
+    <h3>Skills</h3>
+    </aside>
+    <div class="col-sm-9">
+    <div class="row">
+    <div class="col-sm-6">
+    <div class="name">
+    <h4>Full Stack Development</h4>
+    </div>
+    <ul class="keywords">
+    <li>JavaScript</li>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>NodeJS</li>
+    <li>Java</li>
+    <li>.NET</li>
+    <li>AngularJS</li>
+    <li>Vue.JS</li>
+    <li>Yeoman</li>
+    <li>Bootstrap</li>
+    <li>jQuery</li>
+    <li>ASP.NET</li>
+    <li>Python</li>
+    <li>Flask</li>
+    <li>Bottle</li>
+    <li>WCF</li>
+    <li>REST</li>
+    <li>SOAP</li>
+    <li>XML</li>
+    <li>XSLT</li>
+    <li>WCF</li>
+    <li>WPF</li>
+    </ul>
+    </div>
+    <div class="col-sm-6">
+    <div class="name">
+    <h4></h4>
+    </div>
+    </div>
+    <div class="col-sm-6">
+    <div class="name">
+    <h4>Databases</h4>
+    </div>
+    <ul class="keywords">
+    <li>MS SQL Server</li>
+    <li>MongoDB</li>
+    <li>Oracle</li>
+    </ul>
+    </div>
+    <div class="col-sm-6">
+    <div class="name">
+    <h4>Administration</h4>
+    </div>
+    <ul class="keywords">
+    <li>Linux</li>
+    <li>Bash scripting</li>
+    <li>Automation</li>
+    <li>Ansible</li>
+    <li>Puppet</li>
+    <li>Vagrant</li>
+    <li>Docker</li>
+    <li>Package management</li>
+    <li>Package distribution</li>
+    <li>Windows</li>
+    <li>PowerShell</li>
+    <li>Batch scripting</li>
+    <li>Registry</li>
+    <li>Virtualisation</li>
+    <li>Siebel</li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section id="languages" class="row">
+    <aside class="col-sm-3">
+    <h3>Languages</h3>
+    </aside>
+    <div class="col-sm-9">
+    <div class="row">
+    <div class="col-sm-6">
+    <div class="language">
+    <strong>English</strong>
+    </div>
+    <div class="fluency">
+    Native speaker
+    </div>
+    </div>
+    <div class="col-sm-6">
+    <div class="language">
+    <strong>Punjabi</strong>
+    </div>
+    <div class="fluency">
+    Professional working proficiency
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section id="interests" class="row">
+    <aside class="col-sm-3">
+    <h3>Interests</h3>
+    </aside>
+    <div class="col-sm-9">
+    <div class="row">
+    <div class="col-sm-6">
+    <div class="name">
+    <h4>Current Professional Interests</h4>
+    </div>
+    <ul class="keywords">
+    <li>FOSS</li>
+    <li>Big Data</li>
+    <li>MongoDB</li>
+    <li>AngularJS</li>
+    <li>NodeJS</li>
+    <li>Python</li>
+    <li>Webapp building</li>
+    </ul>
+    </div>
+    <div class="col-sm-6">
+    <div class="name">
+    <h4>Personal</h4>
+    </div>
+    <ul class="keywords">
+    <li>Health and fitness</li>
+    <li>Cooking</li>
+    <li>Playing instruments</li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section id="references" class="row">
+    <aside class="col-sm-3">
+    <h3>References</h3>
+    </aside>
+    <div class="col-sm-9">
+    <div class="row">
+    <div class="col-sm-12">
+    <blockquote class="reference">
+    <p>I have known Arjun for a long time now, both professionally and personally. Arjun was one of the best grad developers I have worked with - he was knowledgeable, enthusiastic and a pleasure to work with. During his time at IFPI he was keen to learn new technologies and was able to deliver on some solid solutions which are still in use. Arjun also has a thorough understanding of fundamentals of computer science and was also very creative in his programming. I look forward to working again with Arjun in the near future.</p>
+    <p class="name">
+    <strong>— Pratim Das</strong>
+    </p>
+    </blockquote>
+    </div>
+    </div>
+    </div>
+    </section>
+    </div>
+    <script>!function(e,t,r,n,c,a,l){function i(t,r){return r=e.createElement('div'),r.innerHTML='<a href="'+t.replace(/"/g,'&quot;')+'"></a>',r.childNodes[0].getAttribute('href')}function o(e,t,r,n){for(r='',n='0x'+e.substr(t,2)|0,t+=2;t<e.length;t+=2)r+=String.fromCharCode('0x'+e.substr(t,2)^n);return i(r)}try{for(c=e.getElementsByTagName('a'),l='/cdn-cgi/l/email-protection#',n=0;n<c.length;n++)try{(t=(a=c[n]).href.indexOf(l))>-1&&(a.href='mailto:'+o(a.href,t+l.length))}catch(e){}for(c=e.querySelectorAll('.__cf_email__'),n=0;n<c.length;n++)try{(a=c[n]).parentNode.replaceChild(e.createTextNode(o(a.getAttribute('data-cfemail'),0)),a)}catch(e){}}catch(e){}}(document);</script>
+    
+    </body></html>
