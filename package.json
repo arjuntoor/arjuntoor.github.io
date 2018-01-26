@@ -14,7 +14,7 @@
     "url": "git+https://a12jun@bitbucket.org/a12jun/my-resume.git"
   },
   "scripts": {
-    "convert": "node build/build-resume.js",
+    "convert": "node build/convert.js",
     "preview": "cd dist && resume serve",
     "deploy": "node build/deploy.js"
   },
