@@ -103,6 +103,7 @@ function saveFile(content, options) {
     fs.writeFile(dest, content, resumeEncoding, (err) => {
         if (err) throw err;
         console.log(`File saved to ${dest}`);
+        console.log(`Now copy and paste ${dest} to http://registry.jsonresume.org/ and explore the themes. View README.md for more instructions`);
     });
 }
 
