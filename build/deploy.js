@@ -1,24 +1,18 @@
-var fs = require('fs');
-var fsextra = require('fs-extra');
-var sleep = require('system-sleep');
-var prompt = require('prompt');
-var chalk = require('chalk');
+const fs = require('fs');
+const fsextra = require('fs-extra');
+const sleep = require('system-sleep');
+const prompt = require('prompt');
+const chalk = require('chalk');
+const util = require('./util.js');
 
 const log = console.log;
 
-var path = "dist/";
+const path = "dist/";
 var files = [];
 
-function clearConsole() {
-    if (console.clear) {
-        console.clear();
-    } else {
-        console.log('\033[2J');
-    }
-}
 
 function loadFiles() {
-    clearConsole();
+    util.clearConsole();
     console.log(chalk.green("Just getting stuff ready..."));
     fs.readdir(path, function(err, items) {
         for (var i=0; i<items.length; i++) {
@@ -29,7 +23,7 @@ function loadFiles() {
 
 function askWhichFile() {
     var choice = -1;
-    clearConsole();
+    util.clearConsole();
     log(chalk.green("Please pick which file you want to deploy"));
 
     for (var i=0; i<files.length; i++) {
@@ -61,7 +55,7 @@ function deploy(choice) {
     fsextra.copySync(path + file['file'], "index.html");
     log(chalk.green('Done.\nNow, "git commit && git push", then go to https://<username>.github.io to see the live CV.'));
 
-    log('\n\n');
+    log('\n\n');    
 }
 
 function main() {
