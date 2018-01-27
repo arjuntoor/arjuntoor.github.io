@@ -1,3 +1,4 @@
+// Imports
 const fs = require('fs');
 const fsextra = require('fs-extra');
 const sleep = require('system-sleep');
@@ -5,8 +6,8 @@ const prompt = require('prompt');
 const chalk = require('chalk');
 const util = require('./util.js');
 
+// Other vars
 const log = console.log;
-
 const path = "dist/";
 var files = [];
 
