@@ -34,7 +34,7 @@
       "position": "Senior Software Engineer",
       "website": "http://bt.com",
       "startDate": "2016-05-03",
-      "summary": "I worked on a specialist team on a Cyber Security platform, for a foreign government. The project consisted of a mashup of Big Data technologies.  Some examples include Hadoop, Kafka, Impala and Spark.  I developed a number of pipeline components to run in a clustered environment that integrate third-party threat monitoring products into the data ingest pipeline, such as FireEye, DarkTrace and Cisco FireSIGHT.  I also worked extensively on new enhanced features such as performance and metric data gathering (with JMX, DropWizard and Check_MK), automation, and interfacing via APIs.",
+      "summary": "I worked on a specialist team on a Cyber Security platform, for a foreign government. The project consisted of a range of Big Data technologies, including Hadoop, Kafka, Impala and Spark, in addition to core technologies like Java, Python and Bash.  I developed a number of pipeline components to run in a clustered environment that integrate third-party threat monitoring products into the data ingest pipeline, such as FireEye, DarkTrace and Cisco FireSIGHT.  I also worked extensively on new enhanced features such as performance and metric data gathering (with Java JMX, DropWizard and Check_MK), automation (with Docker, Ansible, Vagrant, etc.), and interfacing via APIs.",
       "highlights": [
         "Visiting the foreign customers premesis on multiple occasions to lead the deployment of my teams components. Gained exposure to the critical operational element, as well as an understanding of the DevOps methods used by expert staff.",
         "Extensive experience of leading a team of developers of varying expertise, delivering against project deadlines. This involved mentoring team members, conducting code reviews, and sharing good practice and knowledge on software development principles, e.g. TDD and design patterns.",
@@ -62,7 +62,7 @@
       "position": "IST Development Officer",
       "website": "http://www.wiltshire.police.uk/",
       "startDate": "2011-03-01",
-      "endDate": "2012-04-01",
+      "endDate": "2012-04-13",
       "summary": "I was responsible for the design and development of internal web applications and developing solutions for a variety of important real-world problems. In a short space of time I tackled many challenging projects, whilst learning the operational aspects of working for a Police force. This was a fast paced, multi-functional role with focus on time-scales and reliability of solutions, on which I was able to deliver successfully.",
       "highlights": [
         "Developed an 'all in one' ASP.NET web application used by the senior task force for daily meetings to manage high-priority cases. Consisted of a dynamic front end using ASP.NET AJAX, several layers of data extraction using TSQL and SSIS, and integration with the NicheRMS API. The site has since been shared with neighboring police forces.",
@@ -76,7 +76,7 @@
       "position": "Web Developer",
       "wesite": "http://www.digitaltrading.co.uk",
       "startDate": "2010-07-01",
-      "endDate": "2011-02-01",
+      "endDate": "2011-03-01",
       "summary": "I was responsible for developing customised DotNetNuke websites and modules, working for an entrepreneurial website development and client consulting company. All projects involved working with graphics designers, business managers and clients.",
       "highlights": [
         "Created several DotNetNuke websites with custom shopping cart systems and integration with the PayPal IPN system.",
@@ -174,7 +174,7 @@
       "title": "M101P: MongoDB for Developers",
       "date": "2015-07-01",
       "awarder": "MongoDB University",
-      "summary": "I took this course in order to learn a no-SQL database technology, and because it went hand-in-hand with my personal development projects.  A completion certificate is available to view from my homepage."
+      "summary": "I took this course as I was learning to work with the MEAN stack for my personal development projects.  The course was an excellent self-study format and introduced me to the concepts of NoSQL, and gave me a good understanding of MongoDB architecture. A completion certificate is available to view from my homepage."
     }
   ],
   "languages": [

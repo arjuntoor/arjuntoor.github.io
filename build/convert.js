@@ -2,6 +2,8 @@
 const objgen = require('objgen/objgen').ObjGen
 const fs = require('fs');
 const readline = require('readline');
+const util = require('./util.js');
+const chalk = require('chalk');
 
 // Other constants
 const resumeRaw = 'src/resume.txt';
@@ -9,6 +11,7 @@ const resumeJson = 'dist/resume.json';
 const resumeEncoding = 'utf8';
 const stringArrayStartTag = '#startStringArray';
 const stringArrayEndTag = '#endStringArray';
+const log = console.log;
 
 
 function main() {
@@ -88,7 +91,8 @@ function normalise(line) {
  * @param {*} input 
  */
 function convertToJson(input) {
-    console.log("Converting the resume to json");
+    util.clearConsole();
+    log(chalk.green("Converting the resume to json"));
     return objgen.xJson(input, {numSpaces: 2});
 }
 
@@ -102,8 +106,9 @@ function saveFile(content, options) {
     var dest = options.name;
     fs.writeFile(dest, content, resumeEncoding, (err) => {
         if (err) throw err;
-        console.log(`File saved to ${dest}`);
-        console.log(`Now copy and paste ${dest} to http://registry.jsonresume.org/ and explore the themes. View README.md for more instructions`);
+        util.clearConsole();
+        log(chalk.green(`File saved to ${dest}`));
+        log(chalk.green(`Now copy and paste ${dest} to http://registry.jsonresume.org/ and explore the themes. View README.md for more instructions`));
     });
 }
 
