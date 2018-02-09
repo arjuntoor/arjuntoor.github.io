@@ -4,7 +4,7 @@ basics
   picture = https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAYrAAAAJGM5NWE4MmM5LTA2YmUtNGY2NS04NWYyLWUxYjhkYzU3ZTc5Nw.jpg
   email = a.toor@hotmail.co.uk
   website = http://arjuntoor.github.io
-  summary = As a determined and talented professional, I am looking for interesting new opportunities within the software and web application development industry. My proven record has enabled me to work on a wide range of successful projects, for a number of firms ranging from startup to global giants.  My skillset and experience is constantly growing due to my ability to become effective with new technologies quickly.  I wish to work in an environment that focuses on delivering high quality software, which places value on the self-starting and progresive thinker.
+  summary = As a determined and talented professional, I am looking for interesting new opportunities within the software and web application development industry. My proven record has enabled me to work on a wide range of successful projects, for a number of firms ranging from startup to global giants.  My skillset and experience is constantly growing due to my ability to become effective with new technologies quickly.  I wish to work in an environment that focuses on delivering high quality software, which places value on the self-starting and progressive thinker.
   location
     city = South West
     countryCode = UK
