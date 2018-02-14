@@ -102,7 +102,7 @@ education [0]
 skills [0]
   name = Full Stack Development
 	level = Experienced
-	keywords[] s = JavaScript, NodeJS, AngularJS, Vue.js, Yeoman, jQuery, HTML5, CSS3, Bootstrap, Java, .NET, ASP.NET, Python, Flask, Bottle, WCF, REST, SOAP, XML, XSLT, WCF, WPF
+	keywords[] s = JavaScript, NodeJS, AngularJS, Vue.js, Firebase, Yeoman, jQuery, HTML5, CSS3, Bootstrap, Java, .NET, ASP.NET, Python, Flask, Bottle, WCF, REST, SOAP, XML, XSLT, WCF, WPF
 skills [2]
   name = Databases
   level = Experienced
